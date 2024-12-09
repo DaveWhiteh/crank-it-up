@@ -149,3 +149,16 @@ Desktop (1920 x 1080)
 <summary>Add New Product</summary>
 <img src="media/readme/design_layout_add_new_product.jpg" width="500">
 </details>
+
+### **Surface**
+
+**Colour**
+
+The main colour palette was chosen with the two colours of ice blue and lime green in mind. The palette itself was chosen by researching different colours that would work well together and really provide a bold looking site. Having the site using primarily blues, blacks and white, meant there would be a lot of dark colours throughout. With the lime green used to break up the site adding that all important lightness to really bring the site alive.
+
+Tints and shades of these colours were found at [maketintsandshade.com](https://maketintsandshades.com/).
+
+<details>
+<summary>Colour Palette</summary>
+<img src="media/readme/colour_palette.jpg" width="500">
+</details>
