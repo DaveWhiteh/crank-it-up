@@ -162,3 +162,17 @@ Tints and shades of these colours were found at [maketintsandshade.com](https://
 <summary>Colour Palette</summary>
 <img src="media/readme/colour_palette.jpg" width="500">
 </details>
+
+**Typography**
+
+Chosen throughout this site was the font Poppins. It was chosen because of its simple look and very easy to read. It is also a very versatile font that has many font weights. This font is available at [Google Fonts](https://fonts.google.com/).
+
+**Images**
+
+The images throughout the site were chosen specifically to showcase to the user the fun factor from purchasing their next bike with Crank It Up. The main homepage image will be black and white with the person and bike coloured in the primary blue, this will really help with making this image stand out to new users. All other images within the site were overlaid with a blue tint. All the sources where the images came from can be found within the [credits](#credits) section.
+
+**Icons**
+
+The icons within the site can be found at [Font Awesome](https://fontawesome.com/). The main icons within the site are the social media links that can be found on each page in the footer. These give the opportunity for the user to go straight to these social media sites to find out the most recent info regarding the business and the web application. The other icons include the section in the homepage that are used to provide short but punchy descriptive text to quickly explain to a user what the site has to offer.
+
+---
