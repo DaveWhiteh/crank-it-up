@@ -100,3 +100,52 @@ This detail is followed by a form for the user to fill out, containing the users
 **Profile Page**
 
 The profile page has a similar sort of layout to the login and register pages. It contains a full grey background, which is split into two half's. The left side allowing the user to add / update contact billing information. The right side contains the users purchase history.
+
+### **Structure**
+
+The structure of the site will be a series of multiple webpages linked together through carefully thought out buttons and icons. The user will clearly be able to identify what the site is about and how they navigate through the site with easily identifiable buttons and text clearly stating where they will be taken to. The navigation throughout will allow the experience to be fluid and should they run into trouble at any point they will be directed straight back to the home page or product page.
+
+### **Skeleton**
+
+Figma has been used to create the design layouts for this site. Figma is a perfect creative tool that allows for a much more extensive design layout to be created rather than just wireframes. This allows for the producing of the site to be more streamlined, and less likely for major issues to occur with the build of the site. These designs allow the whole process of the site creation to be easier and smoother knowing where each element goes and the colours of each element within the site.
+
+Mobile (360 x 640)<br>
+Tablet (1024 x 1366)<br>
+Desktop (1920 x 1080)
+
+#### **Design Layouts**
+
+<details>
+<summary>Home Page</summary>
+<img src="media/readme/design_layout_home.jpg" width="500">
+</details>
+
+<details>
+<summary>Product Page</summary>
+<img src="media/readme/design_layout_products.jpg" width="500">
+</details>
+
+<details>
+<summary>Product Landing Page</summary>
+<img src="media/readme/design_layout_products_landing.jpg" width="500">
+</details>
+
+<details>
+<summary>Basket</summary>
+<img src="media/readme/design_layout_basket.jpg" width="500">
+</details>
+
+<details>
+<summary>Register / Login</summary>
+<img src="media/readme/design_layout_register_login.jpg" width="500">
+</details>
+
+<details>
+<summary>Profile</summary>
+<img src="media/readme/design_layout_profile.jpg" width="500">
+</details>
+
+<details>
+<summary>Add New Product</summary>
+<img src="media/readme/design_layout_add_new_product.jpg" width="500">
+</details>
