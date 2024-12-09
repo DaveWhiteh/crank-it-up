@@ -49,3 +49,12 @@ The site will be targeted towards individuals who want a no nonsense, quick and 
 + Feel my personal details and payment information is secure - I can have the confidence to provide and input my payment details
 + View an order confirmation after checkout - I can make sure my order has gone through successfully and I haven't made any mistakes
 + Receive an email confirmation after checkout - I can have confirmation and proof of purchase for my records
+
+### **Strategy**
+
+**Site Goals**
+
+This project is based around creating a full-stack ecommerce website that allows users to browse and purchase products, utilising Django framework, HTML, CSS, Javascript, Python, Stripe Payments and a Relational Database.
+
+The main goal of the website is to allow users to browse and purchase quality used bike(s). They have the option to register for an account that will allow them to add, edit/update there personal details. Full CRUD functionality will be available to the user throughout their account.
+The website will need to be of a professional outlay with an attractive design that is both modern and simple to navigate. The site will need to be fully responsive allowing for the site to look great on all devices.
