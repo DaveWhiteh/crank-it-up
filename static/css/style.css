@@ -184,6 +184,12 @@ body {
     text-decoration: none;
 }
 
+/* --------------------------------------------------------------------------------------- Misc */
+
+.no-border {
+    border: none;
+}
+
 /* --------------------------------------------------------------------------------------- Navbar */
 
 .img-logo {
@@ -208,6 +214,64 @@ body {
     background-color: var(--blue);
 }
 
+/* --------------------------------------------------------------------------------------- Home Page */
+
+.jumbotron {
+    background: url('/media/home_jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 75vh;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.display-4 {
+    font-size: 3rem;
+}
+
+.product {
+    box-shadow:  10px 5px 20px var(--grey);
+}
+
+.card-body {
+    height: 100%;
+}
+
+.product-image {
+    padding: 1.25rem;
+}
+
+.text-advert {
+    font-size: 1.5rem;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    -webkit-hyphens: none;
+    hyphens: none;
+    line-height: 1.5;
+}
+
+.advert-image {
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(57, 131, 227, 0.4);
+}
+
+.bottom-image {
+    object-fit: cover;
+    height: 65vh;
+}
+
 /* --------------------------------------------------------------------------------------- Footer */
 
 .footer-media a i:hover,
@@ -229,6 +293,11 @@ body {
 
 /* --------------------------------------------------------------------------------------- Media Queries */
 
+@media screen and (min-width: 768px) {
+
+}
+
+
 /* Larger / Tablet Screens */
 @media screen and (min-width: 992px) {
     .dropdown-menu {
@@ -245,11 +314,27 @@ body {
         text-decoration: underline;
         background-color: var(--blue);
     }
+
+    .jumbotron {
+        background-position: top;
+    }
+
+    .jumbo-text-header {
+        font-size: 3.5rem;
+    }
 }
 
 /* Medium / Tablet Screens */
 @media screen and (max-width: 991px) {
     .header-container {
         padding-top: 166px;
+    }
+
+    .jumbotron {
+        height: 65vh;
+    }
+
+    .text-footer {
+        font-size: 100%;
     }
 }
