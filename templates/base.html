@@ -180,6 +180,55 @@
     {% block content %}
     {% endblock %}
 
+    <!-- footer starts -->
+    <footer class="bg-color-black footer-logo-position">
+        <div class="container">
+
+            <!-- Logo -->
+            <div class="row d-flex justify-content-sm-center justify-content-md-between mb-5">      
+                <div class="col-12 col-lg-4 my-auto">
+                    <a href="{% url 'home' %}" class="navbar-brand">
+                        <img src="/media/ciu_logo_blue.png" alt="CIU-Test Logo" id="ciu-logo" class="img-logo footer-logo">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Strapline -->
+                <div class="col-12 col-md-4 text-center text-md-left mb-3 mb-md-0">
+                    <p class="text-small text-dark-blue">Gear up for the next level with<br>Crank-It Up!</p>
+                </div>
+                <!-- Social Media Links -->
+                <div class="col-12 col-md-4 footer-media text-center mb-3 mb-md-0">
+                    <a href="https://www.facebook.com" class="mx-4 mx-md-3 mx-lg-4" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x icon-green" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.twitter.com" class="mx-4 mx-md-3 mx-lg-4" target="_blank">
+                        <i class="fab fa-square-x-twitter fa-2x icon-green" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com" class="mx-4 mx-md-3 mx-lg-4" target="_blank">
+                        <i class="fab fa-instagram fa-2x icon-green" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <!-- Address -->
+                <div class="col-12 col-md-4 text-center text-md-right mb-5">
+                    <div class="text-small text-dark-blue text-semibold">Crank It Up Ltd, 123 Gears</div>
+                    <div class="text-small text-dark-blue text-semibold">Mountain, B11 K3</div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="container-fluid bg-dark-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center text-md-left">
+                        <p class="text-smaller text-white py-2 mb-0">Copyright 2024 - Crank-It Up Ltd</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
     {% block postloadjs %}
     {% endblock %}
 </body>

@@ -179,6 +179,11 @@ body {
     color: var(--green);
 }
 
+.icons:hover {
+    color: var(--dark-green);
+    text-decoration: none;
+}
+
 /* --------------------------------------------------------------------------------------- Navbar */
 
 .img-logo {
@@ -201,6 +206,25 @@ body {
     color: var(--white);
     text-decoration: underline;
     background-color: var(--blue);
+}
+
+/* --------------------------------------------------------------------------------------- Footer */
+
+.footer-media a i:hover,
+.footer-media a i:active,
+.footer-media a i:focus,
+.footer-media a i:active:focus {
+    color: var(--dark-green) !important;
+}
+
+.footer-logo-position {
+    position: relative;
+}
+
+.footer-logo {
+    position: absolute;
+    top: 0;
+    transform: translateY(-50%);
 }
 
 /* --------------------------------------------------------------------------------------- Media Queries */
