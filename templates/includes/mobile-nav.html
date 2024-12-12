@@ -1,8 +1,9 @@
 {% load static %}
 
-<div id="topnav-mobile" class="row bg-white pt-lg-2">
+<div id="topnav-mobile" class="bg-white pt-lg-2 d-flex d-lg-none">
 
-    <div class="col-2 my-auto">
+    <!-- Menu Toggle -->
+    <div class="col-2 col-sm-2 my-auto pl-0">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav"
             aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -10,13 +11,14 @@
     </div>
 
     <!-- Logo -->
-    <div class="col-2 my-auto">
+    <div class="col-4 col-sm-4 my-auto">
         <a href="{% url 'home' %}" class="navbar-brand">
             <img src="/media/ciu_logo_blue.png" alt="CIU-Test Logo" id="ciu-logo" class="img-logo">
         </a>
     </div>
 
-    <div class="col-8 my-auto pr-0">
+    <!-- Nav -->
+    <div class="col-6 col-sm-6 my-auto pr-0">
         <ul class="list-inline list-unstyled text-right my-0 pr-0">
 
             <!-- Account Dropdown -->
@@ -44,7 +46,7 @@
 
             <!-- Basket -->
             <li class="list-inline-item">
-                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link pr-0" href="">
                     <div class="text-center">
                         <div><i class="fa-solid fa-basket-shopping fa-lg icon-dark-blue"></i></div>
                         <p class="text-dark-blue my-0">
@@ -58,22 +60,5 @@
                 </a>
             </li>
         </ul>
-    </div>
-
-    <!-- Search Box -->
-    <div class="col-12 my-auto pt-2 pb-2">
-        <form method="GET" action="">
-            <div class="search-box input-group w-100">
-                <input class="form-control border border-black rounded-3" type="text" name="q"
-                    placeholder="Search our products">
-                <div class="input-group-append">
-                    <button class="form-control btn btn-green btn-transition border border-black rounded-3" type="submit">
-                        <span class="icon">
-                            <i class="fas fa-search"></i>
-                        </span>
-                    </button>
-                </div>
-            </div>
-        </form>
     </div>
 </div>

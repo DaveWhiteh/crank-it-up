@@ -1,21 +1,24 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+
+        <!-- Home link -->
         <li class="nav-item">
-            <a class="nav-link text-semibold text-white mr-5" href="{% url 'home' %}">
+            <a class="nav-link text-medium text-white mr-5" href="{% url 'home' %}">
                 Home
             </a>
         </li>
 
+        <!-- Products Dropdown -->
         <li class="nav-item dropdown">
-            <a class="nav-link text-semibold text-white mr-5" href="#" id="products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link text-medium text-white mr-5" href="#" id="products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Bikes
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="products-link">
-                <a href="" class="dropdown-item">All Bikes</a>
-                <a href="" class="dropdown-item">Mountain</a>
-                <a href="" class="dropdown-item">Gravel</a>
-                <a href="" class="dropdown-item">Road</a>
-                <a href="" class="dropdown-item">Hybrid</a>
+            <div class="dropdown-menu bg-blue border-0" aria-labelledby="products-link">
+                <a href="" class="dropdown-item pl-2">All Bikes</a>
+                <a href="" class="dropdown-item pl-2">Mountain</a>
+                <a href="" class="dropdown-item pl-2">Gravel</a>
+                <a href="" class="dropdown-item pl-2">Road</a>
+                <a href="" class="dropdown-item pl-2">Hybrid</a>
             </div>
         </li>
     </ul>
