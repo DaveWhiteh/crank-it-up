@@ -1,0 +1,386 @@
+[
+	{
+		"pk": 1,
+		"model": "products.product",
+		"fields": {
+			"category": 2,
+			"brand_name": "Giant",
+			"model_name": "2024 Revolt 2",
+			"description": "The Giant Revolt 2 gravel bike features a versatile flip chip dropout and endurance-focused geometry, making it ideal for tackling both rugged terrain and smooth tarmac with confidence. The Giant Revolt 2 is designed for adventurous riders seeking versatility and stability on gravel and mixed terrain. Its ALUXX-grade aluminium frame and advanced composite fork deliver a smooth, compliant ride.",
+			"size": "Large",
+			"colour": "Black",
+			"price": 750.00,
+			"is_featured": true,
+			"is_active": true,
+			"image": "product_gravel_giant-revolt.jpg"
+		}
+	},
+	{
+		"pk": 2,
+		"model": "products.product",
+		"fields": {
+			"category": 2,
+			"brand_name": "Merida",
+			"model_name": "2024 Silex 200",
+			"description": "The Merida Silex 200 is a gravel bike designed for adventures and commuting. With its versatile capabilities and innovative design, this bike will enable nimble handling. Whether you're racing or commuting, the Silex 200 is your reliable companion.\nThe Merida Silex 200 is engineered for the ultimate off-road experience. Its Lite II 6066 triple-butted hydroformed aluminium frame, coupled with a full carbon Silex CF2 II fork, offers remarkable stability and agility. The bike's modern MTB-inspired geometry, including a 1.5-degree slacker head angle and larger volume tyres, ensures confident off-road handling. With a Shimano Sora 2x9-speed drivetrain, mechanical disc brakes, and Maxxis Rambler 700 x 45c tyres, the Silex 200 delivers precision, reliability, and exceptional grip on any surface.",
+			"size": "Medium",
+			"colour": "Teal",
+			"price": 650.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_gravel_merida-silex.jpg"
+		}
+	},
+	{
+		"pk": 3,
+		"model": "products.product",
+		"fields": {
+			"category": 2,
+			"brand_name": "GT",
+			"model_name": "2023 Grade Comp",
+			"description": "The GT Grade Comp is a versatile gravel bike built for new adventures and adding a mix of terrain to your rides. Featuring Shimano GRX400 2x10 drivetrain and WTB Riddle TCS Light 700x37c tires riders can tackle off-road terrain.\nUnleash your adventurous spirit with the GT Grade Comp. This versatile road bike is designed to tackle a wide range of terrain, making it perfect for riders who crave exploration. Featuring a Shimano GRX400 2x10 drivetrain and grippy WTB Riddle TCS Light 700x37c tires, the Grade Comp is your ticket to new cycling experiences.",
+			"size": "Large",
+			"colour": "Tan",
+			"price": 950.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_gravel_gt-grade-comp.jpg"
+		}
+	},
+	{
+		"pk": 4,
+		"model": "products.product",
+		"fields": {
+			"category": 2,
+			"brand_name": "Specialized",
+			"model_name": "2023 Diverge E5 Comp",
+			"description": "The Specialized Diverge E5 Comp is a versatile gravel bike delivering a smooth ride on varied terrain and a great introduction to gravel. Whether it is gravel racing or adventures, the future shock suspension will keep you in control.",
+			"size": "Extra Large",
+			"colour": "Green",
+			"price": 1250.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_gravel_specialized-diverge.jpg"
+		}
+	},
+	{
+		"pk": 5,
+		"model": "products.product",
+		"fields": {
+			"category": 2,
+			"brand_name": "Cube",
+			"model_name": "2025 Nulane One Trapeze",
+			"description": "Fast, fun and practical come together with tourer and road-race DNA all in one.",
+			"size": "Small",
+			"colour": "Grey",
+			"price": 500.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_gravel_cube-nulane.jpg"
+		}
+	},
+	{
+		"pk": 6,
+		"model": "products.product",
+		"fields": {
+			"category": 2,
+			"brand_name": "Scott",
+			"model_name": "2024 Addict 40",
+			"description": "The Scott Addict Gravel 40 is an adventure-ready gravel bike built for control, comfort, and versatility. With its lightweight carbon frame, Shimano GRX 24-speed drivetrain, and wider tyres, it’s perfect for tackling mixed terrains and exploring the unknown.",
+			"size": "Large",
+			"colour": "Orange",
+			"price": 1550.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_gravel_scott-addict.jpg"
+		}
+	},
+	{
+		"pk": 7,
+		"model": "products.product",
+		"fields": {
+			"category": 1,
+			"brand_name": "GT",
+			"model_name": "2024 Zaskar FS Sport",
+			"description": "The GT Zaskar Sport is an entry-level hardtail mountain bike is a perfect introduction to mountain biking and off-road adventures with family and friends. 130mm of suspension travel keeps you in control.",
+			"size": "Extra Large",
+			"colour": "Black",
+			"price": 590.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_mountain_gt-zaskar.jpg"
+		}
+	},
+	{
+		"pk": 8,
+		"model": "products.product",
+		"fields": {
+			"category": 1,
+			"brand_name": "Specialized",
+			"model_name": "2025 Rockhopper Sport 29",
+			"description": "The Specialized Rockhopper Sport 29\" featuring a specific travel SR SunTour XCM fork, making it an ideal choice for cross-country and trail riding enthusiasts.",
+			"size": "Medium",
+			"colour": "Blue",
+			"price": 480.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_mountain_specialized-rockhopper.jpg"
+		}
+	},
+	{
+		"pk": 9,
+		"model": "products.product",
+		"fields": {
+			"category": 1,
+			"brand_name": "Voodoo",
+			"model_name": "2025 Canzo FS",
+			"description": "The Voodoo Canzo is a budget friendly full-suspension mountain bike, perfect for trail riding and bike park adventures. Featuring a robust alloy frame and RockShox suspension, it’s built to handle steep descents and technical climbs with ease.",
+			"size": "Large",
+			"colour": "Black",
+			"price": 980.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_mountain_voodoo-canzo.jpg"
+		}
+	},
+	{
+		"pk": 10,
+		"model": "products.product",
+		"fields": {
+			"category": 1,
+			"brand_name": "Orbea",
+			"model_name": "2025 Laufey H30",
+			"description": "Riding a hardtail is a choice, not a compromise, and if you choose Laufey, you are choosing to squeeze every last drop of fun from every ride..",
+			"size": "Small",
+			"colour": "Blue",
+			"price": 1400.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_mountain_orbea-laufey.jpg"
+		}
+	},
+	{
+		"pk": 11,
+		"model": "products.product",
+		"fields": {
+			"category": 1,
+			"brand_name": "Marin",
+			"model_name": "2021 Rift Zone 2 FS",
+			"description": "The Rift Zone 27.5 is our most playful trail bike, made for the rider that catches a bit of air off of every root in the trail, is always looking for an alternate line, and ends every ride with a smile. This is an all-around suspension bike with trail performance far out stretching the asking price.",
+			"size": "Extra Large",
+			"colour": "Black",
+			"price": 1750.00,
+			"is_featured": true,
+			"is_active": true,
+			"image": "product_mountain_marin-rift-zone.jpg"
+		}
+	},
+	{
+		"pk": 12,
+		"model": "products.product",
+		"fields": {
+			"category": 1,
+			"brand_name": "Scott",
+			"model_name": "2022 Aspect 750",
+			"description": "The SCOTT Aspect 750 is a hardtail mountain bike that is designed to be light, efficient and reasonably priced. Featuring disc brakes and Syncros components, this is the perfect bike for the novice or budget conscious mountain biker.",
+			"size": "Medium",
+			"colour": "Orange",
+			"price": 220.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_mountain_scott-aspect.jpg"
+		}
+	},
+	{
+		"pk": 13,
+		"model": "products.product",
+		"fields": {
+			"category": 3,
+			"brand_name": "Merida",
+			"model_name": "2023 Reacto 6000 Di2",
+			"description": "The Merida Reacto 6000 is a proven race winner and aerodynamic speed machine. With an aerodynamic frame, cockpit and Merida expert wheelset, the Reacto just wants go fast. And completed with sublime shifting from 105 Di2.",
+			"size": "Small",
+			"colour": "Red",
+			"price": 1760.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_road_merida-reacto.jpg"
+		}
+	},
+	{
+		"pk": 14,
+		"model": "products.product",
+		"fields": {
+			"category": 3,
+			"brand_name": "Giant",
+			"model_name": "2023 Fastroad AR 3",
+			"description": "The Giant FastRoad AR 3 is a flat road bike featuring a lightweight aluminium frame, composite fork and 40mm Giant Gavia tyres ideal for smooth roads, bumpy bike paths, and gravel adventures.",
+			"size": "Medium",
+			"colour": "Plum",
+			"price": 575.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_road_giant-fastroad.jpg"
+		}
+	},
+	{
+		"pk": 15,
+		"model": "products.product",
+		"fields": {
+			"category": 3,
+			"brand_name": "Cube",
+			"model_name": "2025 Attain Pro",
+			"description": "The jury's in, and the verdict is simple: disc brakes help you go faster. That's why, for the Attain Pro, we fitted reliable mechanical disc brakes and grippy Continental Grand Prix 30mm tyres – so you're always in complete control, no matter the weather. Combined with Shimano's slick-shifting 2x8 Claris gears, your speed is literally at your fingertips. A comfortable, lightweight carbon fork and a frame designed for both speed and comfort are the finishing touches. Where will it take you next weekend?",
+			"size": "Small",
+			"colour": "Purple",
+			"price": 640.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_road_cube-attain.jpg"
+		}
+	},
+	{
+		"pk": 16,
+		"model": "products.product",
+		"fields": {
+			"category": 3,
+			"brand_name": "Cannondale",
+			"model_name": "2023 CAAD Optimo 2",
+			"description": "Conquer your commute with the Cannondale CAAD Optimo 2. Not only is the CAAD ideal for commuting, but the alloy frame ensures a smooth ride for long hours in the saddle on weekend adventures.",
+			"size": "Large",
+			"colour": "Black",
+			"price": 620.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_road_cannondale-optimo.jpg"
+		}
+	},
+	{
+		"pk": 17,
+		"model": "products.product",
+		"fields": {
+			"category": 3,
+			"brand_name": "Scott",
+			"model_name": "2024 Speedster 10",
+			"description": "The Scott Speedster 10 is a sleek alloy road bike with fully integrated cables for a clean look. Ideal for fast-paced rides and endurance cycling.",
+			"size": "Small",
+			"colour": "Blue",
+			"price": 980.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_road_scott-speedster.jpg"
+		}
+	},
+	{
+		"pk": 18,
+		"model": "products.product",
+		"fields": {
+			"category": 3,
+			"brand_name": "Cube",
+			"model_name": "2024 Axial WS GTC",
+			"description": "The Cube Axial WS GTC SLX is a road bike designed for the discerning rider seeking the perfect blend of comfort and performance on tarmac. With a lightweight GTC monocoque frame, Shimano Di2 105 components, and hydraulic disc brakes, this bike is engineered for both speed and performance.",
+			"size": "Extra Large",
+			"colour": "Grey",
+			"price": 1780.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_road_cube-axial.jpg"
+		}
+	},
+	{
+		"pk": 19,
+		"model": "products.product",
+		"fields": {
+			"category": 4,
+			"brand_name": "Cannondale",
+			"model_name": "2023 Quick 1 Disc",
+			"description": "The Cannondale Quick 1 Disc is a versatile and practical all purpose hybrid bike. With its light frame, quality components and wider tyres it offers a smooth, reliable and comfortable ride, perfect for commuting, fitness, and leisure rides.",
+			"size": "Medium",
+			"colour": "Black",
+			"price": 950.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_hybrid_cannondale-quick-1.jpg"
+		}
+	},
+	{
+		"pk": 20,
+		"model": "products.product",
+		"fields": {
+			"category": 4,
+			"brand_name": "Cube",
+			"model_name": "2024 Nature",
+			"description": "The Cube Nature is a versatile hybrid bike designed for exploration with 63mm of suspension travel and powerful hydraulic disc brakes. Whether navigating city streets or countryside trails, this bike offers freedom on two wheels.",
+			"size": "Extra Small",
+			"colour": "Black",
+			"price": 380.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_hybrid_cube-nature.jpg"
+		}
+	},
+	{
+		"pk": 21,
+		"model": "products.product",
+		"fields": {
+			"category": 4,
+			"brand_name": "Cannondale",
+			"model_name": "2023 Quick CS 4 Womens",
+			"description": "The Cannondale Quick CX 4 is a versatile and practical all purpose hybrid bike. With its light frame, quality components and wider tyres it offers a smooth, reliable and comfortable ride, perfect for commuting, fitness, and leisure rides.",
+			"size": "Extra Small",
+			"colour": "Blue",
+			"price": 290.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_hybrid_cannondale-quick-cs.jpg"
+		}
+	},
+	{
+		"pk": 22,
+		"model": "products.product",
+		"fields": {
+			"category": 4,
+			"brand_name": "Cannondale",
+			"model_name": "2022 Treadwell EQ DLX",
+			"description": "The Cannondale Treadwell EQ DLX is a very capable and comfortable hybrid bike built for cruising the streets and dirt paths. A step-through frame and Cruise Control handlebars position you comfortably for any adventure.",
+			"size": "Medium",
+			"colour": "Black",
+			"price": 720.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_hybrid_cannondale-treadwell.jpg"
+		}
+	},
+	{
+		"pk": 23,
+		"model": "products.product",
+		"fields": {
+			"category": 4,
+			"brand_name": "Specialized",
+			"model_name": "2022 Sirrus 1.0",
+			"description": "A hybrid sports bike like the Specialized Sirrus 1 is a great start in your cycling journey or looking to cycle to work. With rim brakes and lightweight aluminium frame you will have an efficient ride all-year round.",
+			"size": "Large",
+			"colour": "Black",
+			"price": 190.00,
+			"is_featured": false,
+			"is_active": true,
+			"image": "product_hybrid_specialized-sirrus.jpg"
+		}
+	},
+	{
+		"pk": 24,
+		"model": "products.product",
+		"fields": {
+			"category": 4,
+			"brand_name": "Cube",
+			"model_name": "2025 Editor Race FE",
+			"description": "Whatever the reason for your journey across town, you want a bike that'll make the trip as quick and easy as possible. The Editor Race FE's full equipment package – including lights, mudguards, luggage carrier and kickstand – means it's ready for all weathers and any eventuality. Its practically maintenance-free Gates carbon belt drive and 8-speed Shimano hub gears are ready to go whenever you are. And, with grippy Schwalbe Marathon Green tyres and powerful Shimano hydraulic disc brakes, you'll always be in full control.",
+			"size": "Extra Large",
+			"colour": "Green",
+			"price": 990.00,
+			"is_featured": true,
+			"is_active": true,
+			"image": "product_hybrid_cube-editor.jpg"
+		}
+	}
+]
