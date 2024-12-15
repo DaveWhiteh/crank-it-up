@@ -15,10 +15,10 @@
             </a>
             <div class="dropdown-menu bg-blue border-0" aria-labelledby="products-link">
                 <a href="{% url 'products' %}" class="dropdown-item pl-2">All Bikes</a>
-                <a href="" class="dropdown-item pl-2">Mountain</a>
-                <a href="" class="dropdown-item pl-2">Gravel</a>
-                <a href="" class="dropdown-item pl-2">Road</a>
-                <a href="" class="dropdown-item pl-2">Hybrid</a>
+                <a href="{% url 'products' %}?category=mountain" class="dropdown-item pl-2">Mountain</a>
+                <a href="{% url 'products' %}?category=gravel" class="dropdown-item pl-2">Gravel</a>
+                <a href="{% url 'products' %}?category=road" class="dropdown-item pl-2">Road</a>
+                <a href="{% url 'products' %}?category=hybrid" class="dropdown-item pl-2">Hybrid</a>
             </div>
         </li>
     </ul>

@@ -13,10 +13,17 @@
     <div class="product-main-image mb-0">
         <div class="container container-wrapper">
             <div class="row">
-                <div class="col-12">
-                    <h2 class="text-white text-center mb-4">All Bikes</h2>
-                    <p class="text-larger text-white text-center">Find your next bike here.</p>
-                </div>
+                {% if current_category %}
+                    <div class="col-12">
+                        <h2 class="text-white text-center mb-4">{% if current_category.name == 'mountain' %}Mountain{% elif current_category.name == 'gravel' %}Gravel{% elif current_category.name == 'road' %}Road{% elif current_category.name == 'hybrid' %}Hybrid{% else %}{% endif %} Bikes</h2>
+                        <p class="text-larger text-white text-center">Find your next bike here.</p>
+                    </div>
+                {% else %}
+                    <div class="col-12">
+                        <h2 class="text-white text-center mb-4">All Bikes</h2>
+                        <p class="text-larger text-white text-center">Find your next bike here.</p>
+                    </div>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -44,7 +51,10 @@
                 </div>
                 <div class="col-12 col-md-6 order-md-first">
                     <p class="text-black mt-3 text-center text-md-left">
-                        <span class=""><a href="{% url 'products' %}">All Bikes</a> | </span>
+                        {% if search_term or current_category or current_sorting != 'None_None' %}
+                            <span class=""><a href="{% url 'products' %}">All Bikes</a> | </span>
+                        {% endif %}
+                        {{ products|length }} Products{% if search_term %} found for <strong>"{{ search_term }}"</strong>{% endif %}
                     </p>
                 </div>
             </div>
