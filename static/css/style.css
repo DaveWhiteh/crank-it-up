@@ -307,6 +307,15 @@ body {
     transform: translateY(-50%);
 }
 
+.footer-border {
+    border-top: 1.75px solid var(--dark-blue);
+}
+
+.footer-logo-products {
+    background-color: var(--white);
+    padding: 0px 1px;
+}
+
 /* --------------------------------------------------------------------------------------- Media Queries */
 
 @media screen and (min-width: 768px) {
