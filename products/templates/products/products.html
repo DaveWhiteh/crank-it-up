@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="product-main-image mb-0">
+        <div class="container container-wrapper">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-white text-center mb-4">All Bikes</h2>
+                    <p class="text-larger text-white text-center">Find your next bike here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark-blue text-center px-4 py-4">
+        <div class="container">
+        </div>
+    </div>
+
+    <div class="container-products">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
+                    <div class="sort-select-wrapper">
+                        <select id="sort-selector" name="custom-select custom-select-sm rounded-0 border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
+                            <option value="reset" {% if current_sorting == "None-None"%}selected{% endif %}>Sort by...</option>
+                            <option value="price-asc" {% if current_sorting == "price-asc"%}selected{% endif %}>Price (low to high)</option>
+                            <option value="price-desc" {% if current_sorting == "price-desc"%}selected{% endif %}>Price (high to low)</option>
+                            <option value="brand_name-asc" {% if current_sorting == "brand_name-asc"%}selected{% endif %}>Brand (A-Z)</option>
+                            <option value="brand_name-desc" {% if current_sorting == "brand_name-desc"%}selected{% endif %}>Brand (Z-A)</option>
+                            <option value="category-asc" {% if current_sorting == "category-asc"%}selected{% endif %}>Category (A-Z)</option>
+                            <option value="category-desc" {% if current_sorting == "category-desc"%}selected{% endif %}>Category (Z-A)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 order-md-first">
+                    <p class="text-black mt-3 text-center text-md-left">
+                        <span class=""><a href="{% url 'products' %}">All Bikes</a> | </span>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                {% for product in products %}
+                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+                        <div class="card product no-border h-100">
+                            {% if product.image %}
+                                <a href="">
+                                    <img src="{{ product.image.url }}" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
+                                </a>
+                            {% else %}
+                                <a href="">
+                                    <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
+                                </a>
+                            {% endif %}
+                            <div class="card-body">
+                                <a href="">
+                                    <h5 class="card-title text-semibold text-dark-blue">{{ product.brand_name }}</h5>
+                                </a>
+                                <p class="card-text text-semibold text-dark-blue text-small">{{ product.model_name }}</p>
+                                <div class="row mb-4">
+                                    <div class="col-12 col-md-6">
+                                        <p class="card-text text-medium text-black text-smaller">Size: <span class="text-italic">{{ product.size }}</span></p>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        {% if product.category %}
+                                            <p class="card-text text-medium text-black text-smaller">Category: 
+                                                <a class="text-black" href="{% url 'products' %}?category={{ product.category.name }}">
+                                                    <span class="text-italic">{{ product.category.friendly_name }}</span>
+                                                </a>                                           
+                                            </p>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                                    <p class="card-text text-semibold text-blue">£{{ product.price }}</p>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+{% endblock %}
