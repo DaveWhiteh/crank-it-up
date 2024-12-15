@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container-wrapper">
+        <div class="container">
+            <!--Back Button-->
+            <span class="btn btn-backtoproducts">
+                <a href="{% url 'products' %}"><i class="fa-solid fa-angle-left"></i> Back to products</a>
+            </span>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+                    <div class="image-container my-5">
+                        {% if product.image %}
+                            <a href="{{ product.image.url }}" target="_blank">
+                                <img src="{{ product.image.url }}" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
+                            </a>
+                        {% else %}
+                            <a href="">
+                                <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <h2 class="text-semibold text-dark-blue mb-3">{{ product.brand_name }}</h2>
+                    <h4 class="text-semibold text-dark-blue mb-3">{{ product.model_name }}</h4>
+                    {% if product.category %}
+                        <p class="text-semibold text-black text-small"><span class="text-uppercase">Type:</span> 
+                            <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
+                                <span class="text-dark-blue">{{ product.category.friendly_name }}</span>
+                            </a>
+                        </p>
+                    {% endif %}
+                    <p class="text-black text-small">{{ product.description}}</p>
+                    <p class="text-medium text-black text-smaller"><span class="text-uppercase">Size:</span> <span class="text-blue text-italic">{{ product.size }}</span></p>
+                    <p class="text-medium text-black text-smaller"><span class="text-uppercase">Colour:</span> <span class="text-blue text-italic">{{ product.colour }}</span></p>
+                    <p class="text-semibold text-dark-blue text-larger mt-4 mb-4">£{{ product.price }}</p>
+                    <form class="form" action="" method="POST">
+                        {% csrf_token %}
+                        <div class="form-row">
+                            <div class="col-12">
+                                <div class="form-group w-100">
+                                    <div class="input-group">
+                                        <input type="submit" class="btn btn-green btn-transition btn-block" value="Add to Basket">
+                                    </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

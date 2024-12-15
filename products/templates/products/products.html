@@ -53,16 +53,16 @@
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="card product no-border h-100">
                             {% if product.image %}
-                                <a href="">
+                                <a href="{% url 'product_detail' product.id %}">
                                     <img src="{{ product.image.url }}" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
                                 </a>
                             {% else %}
-                                <a href="">
+                                <a href="{% url 'product_detail' product.id %}">
                                     <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
                                 </a>
                             {% endif %}
                             <div class="card-body">
-                                <a href="">
+                                <a href="{% url 'product_detail' product.id %}">
                                     <h5 class="card-title text-semibold text-dark-blue">{{ product.brand_name }}</h5>
                                 </a>
                                 <p class="card-text text-semibold text-dark-blue text-small">{{ product.model_name }}</p>
