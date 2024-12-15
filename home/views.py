@@ -1,8 +1,15 @@
 from django.shortcuts import render
+from products.models import Product
 
 # Create your views here.
 
 def index(request):
     """ A view to return the home page """
 
-    return render(request, 'home/index.html')
+    # Gets products from DB for featured products
+    products = Product.objects.all()
+    context = {
+        'products': products,
+    }
+
+    return render(request, 'home/index.html', context)

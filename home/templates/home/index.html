@@ -106,30 +106,38 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 mb-4">
-                    <div class="card product no-border h-100">
-                        <a href="">
-                            <img src="" class="card-img-top img-fluid product-image w-100" alt="">
-                        </a>
-                        <div class="card-body">
-                            <a href="">
-                                <h5 class="card-title text-semibold text-dark-blue"></h5>
-                            </a>
-                            <p class="card-text text-semibold text-dark-blue text-small"></p>
-                            <div class="row mb-4">
-                                <div class="col-12 col-md-6">
-                                    <p class="card-text text-medium text-black text-smaller">Size: <span
-                                            class="text-italic"></span></p>
-                                </div>
-                                <div class="col-12 col-md-6">
-                                    <p class="card-text text-medium text-black text-smaller">Type: <span
-                                            class="text-italic"></span></p>
+                {% for product in products %}
+                    {% if product.is_active and product.is_featured %}
+                        <div class="col-12 col-md-6 col-lg-4 mb-4">
+                            <div class="card product no-border h-100">
+                                {% if product.image %}
+                                    <a href="">
+                                        <img src="{{ product.image.url }}" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
+                                    </a>
+                                {% else %}
+                                    <a href="">
+                                        <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
+                                    </a>
+                                {% endif %}
+                                <div class="card-body">
+                                    <a href="">
+                                        <h5 class="card-title text-semibold text-dark-blue">{{ product.brand_name }}</h5>
+                                    </a>
+                                    <p class="card-text text-semibold text-dark-blue text-small">{{ product.model_name }}</p>
+                                    <div class="row mb-4">
+                                        <div class="col-12 col-md-6">
+                                            <p class="card-text text-medium text-black text-smaller">Size: <span class="text-italic">{{ product.size }}</span></p>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <p class="card-text text-medium text-black text-smaller">Category: <span class="text-italic">{{ product.category }}</span></p>
+                                        </div>
+                                    </div>
+                                        <p class="card-text text-semibold text-blue">£{{ product.price }}</p>
                                 </div>
                             </div>
-                            <p class="card-text text-semibold text-blue">£</p>
                         </div>
-                    </div>
-                </div>
+                    {% endif %}
+                {% endfor %}
             </div>
             <div class="row mt-3">
                 <div class="col-12 text-center">
