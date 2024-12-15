@@ -101,4 +101,9 @@
 {% endblock %}
 
 {% block postloadjs %}
+
+    {{ block.super }}
+        <!-- Sort Box JS -->
+        <script src="{% static 'products/sort_box.js' %}"></script>
+        
 {% endblock %}
