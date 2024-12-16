@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect, reverse, HttpResponse, get_object_or_404
+from django.contrib import messages
 
 from products.models import Product
 
@@ -21,6 +22,7 @@ def add_to_bag(request, item_id):
         bag[item_id] += quantity
     else:
         bag[item_id] = quantity
+        messages.success(request, f'Added {product.model_name} to your bag')
 
     request.session['bag'] = bag
     # For Test Purposes
