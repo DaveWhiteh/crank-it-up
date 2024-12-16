@@ -242,6 +242,62 @@ body {
     background-color: var(--blue);
 }
 
+/* --------------------------------------------------------------------------------------- Toasts */
+
+.message-position {
+    position: relative !important;
+}
+
+.message-container {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    z-index: 99999999999;
+}
+
+.custom-toast {
+    overflow: visible;
+    width: 350px;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+/* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
+.arrow-up {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent; 
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -10px;
+    right: 30px;
+}
+
+.arrow-success {
+    border-bottom-color: var(--success) !important;
+}
+
+.arrow-danger {
+    border-bottom-color: var(--warning) !important;
+}
+
+.arrow-warning {
+    border-bottom-color: var(--warning) !important;
+}
+
+.arrow-info {
+    border-bottom-color: var(--blue) !important;
+}
+
+.bag-notification-wrapper {
+    max-height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 /* --------------------------------------------------------------------------------------- Home Page */
 
 .jumbotron {
