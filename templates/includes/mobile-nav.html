@@ -46,7 +46,7 @@
 
             <!-- Basket -->
             <li class="list-inline-item">
-                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link pr-0" href="">
+                <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link pr-0" href="{% url 'view_bag' %}">
                     <div class="text-center">
                         <div><i class="fa-solid fa-basket-shopping fa-lg icon-dark-blue"></i></div>
                         <p class="text-dark-blue my-0">
