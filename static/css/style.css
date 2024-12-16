@@ -251,7 +251,7 @@ body {
 .message-container {
     position: absolute;
     top: 95px;
-    right: 31px;
+    right: 29px;
     z-index: 99999999999;
 }
 
@@ -281,7 +281,7 @@ body {
 }
 
 .arrow-danger {
-    border-bottom-color: var(--warning) !important;
+    border-bottom-color: var(--danger) !important;
 }
 
 .arrow-warning {
@@ -289,7 +289,7 @@ body {
 }
 
 .arrow-info {
-    border-bottom-color: var(--blue) !important;
+    border-bottom-color: var(--info) !important;
 }
 
 .bag-notification-wrapper {
@@ -462,7 +462,7 @@ thead th:first-child {
     }
 
     .message-container {
-        right: 18px;
+        right: 14px;
     }
 }
 
