@@ -250,8 +250,8 @@ body {
 
 .message-container {
     position: absolute;
-    top: 90px;
-    right: 0;
+    top: 95px;
+    right: 31px;
     z-index: 99999999999;
 }
 
@@ -447,6 +447,24 @@ thead th:first-child {
 
 }
 
+/* Medium / Tablet Screens */
+@media screen and (max-width: 991px) {
+    .header-container {
+        padding-top: 166px;
+    }
+
+    .jumbotron {
+        height: 65vh;
+    }
+
+    .text-footer {
+        font-size: 100%;
+    }
+
+    .message-container {
+        right: 18px;
+    }
+}
 
 /* Larger / Tablet Screens */
 @media screen and (min-width: 992px) {
@@ -471,20 +489,5 @@ thead th:first-child {
 
     .jumbo-text-header {
         font-size: 3.5rem;
-    }
-}
-
-/* Medium / Tablet Screens */
-@media screen and (max-width: 991px) {
-    .header-container {
-        padding-top: 166px;
-    }
-
-    .jumbotron {
-        height: 65vh;
-    }
-
-    .text-footer {
-        font-size: 100%;
     }
 }
