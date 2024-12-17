@@ -181,3 +181,43 @@ The images throughout the site were chosen specifically to showcase to the user 
 The icons within the site can be found at [Font Awesome](https://fontawesome.com/). The main icons within the site are the social media links that can be found on each page in the footer. These give the opportunity for the user to go straight to these social media sites to find out the most recent info regarding the business and the web application. The other icons include the section in the homepage that are used to provide short but punchy descriptive text to quickly explain to a user what the site has to offer.
 
 ---
+
+## Data Model
+
+### **Database Schema**
+
+Part of the planning stage was to create a database schema. The schema was created using [dbdiagram.io](https://dbdiagram.io/), making sure that each model was carefully thought out in terms of the data that was required to make the site work. This site will use a relational database model using SQLite and Elephant SQL.
+
+<details>
+<summary>Database Schema</summary>
+<img src="media/readme/database_schema.png" width="500">
+</details>
+
+**Models**
+
++ User - This model holds the data containing the users login details
++ UserProfile - This model holds the users personal details for their profile
++ Category - Holds the category information
++ Product - Holds the data for the actual products
++ Order - This model holds the data for the full order details
++ OrderLineItem - This model holds the data for each order line within an order
+
+**Relationships**
+
+Category to Product Model (Relationship: One to One)
+Ref: "Category"."id" - "Product"."category"
+
+User to UserProfile Model (Relationship: One to One)
+Ref: "User"."id" - "UserProfile"."user"
+
+UserProfile to Order Model (Relationship: One to Many)
+Ref: "UserProfile"."id" < "Order"."user_profile"
+
+Product to OrderLineItem Model (Relationship: One to Many)
+Ref: "Product"."id" < "OrderLineItem"."product"
+
+Order to OrderLineItem Model (Relationship: One to Many)
+Ref: "Order"."id" < "OrderLineItem"."order"
+
+---
+
