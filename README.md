@@ -136,6 +136,11 @@ Desktop (1920 x 1080)
 </details>
 
 <details>
+<summary>Checkout</summary>
+<img src="media/readme/design_layout_checkout.jpg" width="500">
+</details>
+
+<details>
 <summary>Register / Login</summary>
 <img src="media/readme/design_layout_register_login.jpg" width="500">
 </details>
