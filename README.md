@@ -190,7 +190,7 @@ Part of the planning stage was to create a database schema. The schema was creat
 
 <details>
 <summary>Database Schema</summary>
-<img src="media/readme/database_schema.png" width="500">
+<img src="media/readme/database_schema.png" width="1000">
 </details>
 
 **Models**
