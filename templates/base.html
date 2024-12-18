@@ -199,14 +199,18 @@
     {% endblock %}
 
     <!-- footer starts -->
-    <footer class="bg-color-black footer-logo-position {% if '/products/' or '/bag/' in request.path %}footer-border{% else %}{% endif %}">
+    <footer class="bg-color-black footer-logo-position 
+                {% if '/products/' in request.path or '/bag/' in request.path or '/checkout/' in request.path or '/checkout_success/' in request.path %}
+                footer-border{% else %}{% endif %}">
         <div class="container">
 
             <!-- Logo -->
             <div class="row d-flex justify-content-sm-center justify-content-md-between mb-5">      
                 <div class="col-12 col-lg-4 my-auto">
                     <a href="{% url 'home' %}" class="navbar-brand">
-                        <img src="/media/ciu_logo_blue.png" alt="CIU-Test Logo" id="ciu-logo" class="img-logo footer-logo {% if '/products/' in request.path %}footer-logo-products{% elif '/bag/' in request.path %}footer-logo-products{% else %}{% endif %}">
+                        <img src="/media/ciu_logo_blue.png" alt="CIU-Test Logo" id="ciu-logo" class="img-logo footer-logo 
+                        {% if '/products/' in request.path or '/bag/' in request.path or '/checkout/' in request.path or '/checkout_success/' in request.path %}
+                        footer-logo-products{% else %}{% endif %}">
                     </a>
                 </div>
             </div>

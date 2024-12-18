@@ -428,6 +428,11 @@ thead th:first-child {
 
 .order-sum-bk {
     min-height: 350px;
+    border: 0.5px solid var(--grey);
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+
 }
 
 /* --------------------------------------------------------------------------------------- Stripe */
@@ -435,9 +440,10 @@ thead th:first-child {
 .StripeElement,
 .stripe-style-input {
   box-sizing: border-box;
-  height: 40px;
+  height: 36px;
   padding: 10px 12px;
-  border: 1px solid transparent;
+  border: 0.75px solid var(--grey);
+  border-radius: 0.25rem;
   background-color: white;
   box-shadow: 0 1px 3px 0 #e6ebf1;
   -webkit-transition: box-shadow 150ms ease;
@@ -448,6 +454,7 @@ thead th:first-child {
 .stripe-style-input:focus,
 .stripe-style-input:active {
   box-shadow: 0 1px 3px 0 #cfd7df;
+  border-color: var(--light-blue);
 }
 
 .StripeElement--webkit-autofill {
@@ -463,11 +470,10 @@ thead th:first-child {
     right: 0;
 }
 
-/* #payment-form .form-control,
+#payment-form .form-control,
 #card-element {
-    color: #000;
-    border: 1px solid #000;
-} */
+    color: var(--black);
+}
 
 select,
 select option {
