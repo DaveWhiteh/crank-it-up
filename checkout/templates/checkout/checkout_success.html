@@ -38,7 +38,7 @@
                         <div class="col-12 col-md-4 mb-1">
                             <p class="mb-0 text-black text-medium">Order Number</p>
                         </div>
-                        <div class="col-12 col-md-8 text-black mb-1">
+                        <div class="col-12 col-md-8 text-black text-medium mb-1">
                             <p class="mb-0">{{ order.order_number }}</p>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
                         <div class="col-12 col-md-4 mb-1">
                             <p class="mb-0 text-black text-medium">Order Date</p>
                         </div>
-                        <div class="col-12 col-md-8 text-black mb-1">
+                        <div class="col-12 col-md-8 text-black text-medium mb-1">
                             <p class="mb-0">{{ order.date }}</p>
                         </div>
                     </div>
@@ -56,7 +56,7 @@
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black text-medium">Delivery To:</p>
                         </div>
-                        <div class="col-12 col-md-8 text-black">
+                        <div class="col-12 col-md-8 text-dark-blue">
                             <p class="mb-0">{{ order.first_name }} {{ order.last_name }}</p>
                             <p class="mb-0">{{ order.street_address1 }}</p>
                             {% if order.street_address2 %}
@@ -68,7 +68,9 @@
                             <p class="mb-0">{{ order.country.name }}</p>
                         </div>
                     </div>
+
                     <hr>
+
                     <div class="row">
                         <div class="col">
                             <p class="text-dark-blue text-semibold mb-0 py-2">Order Details:</p>
@@ -87,7 +89,9 @@
                             </div>
                         </div>
                     {% endfor %}
-    
+
+                    <hr>
+
                     <div class="row mt-3">
                         <div class="col-12">
                             <p class="text-black text-medium mb-1">Billing Info:</p>
