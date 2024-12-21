@@ -1,0 +1,66 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container-wrapper-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-semibold text-dark-blue mb-4">My Profile</h2>
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-6 order-lg-last mb-5">
+                    <p class="text-medium text-dark-blue">Order History</p>
+                    <div class="col-12 order-sum-bk bg-white b-radius p-3 mb-3">
+                        <div class="row">
+                            <div class="col">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p class="text-dark-blue">Default Contact / Billing Information</p>
+                    <form action="{% url 'checkout' %}" method="POST" id="payment-form">
+                        {% csrf_token %}
+                        <fieldset class="rounded mb-5">
+                            <legend class="fieldset-label text-large text-medium text-dark-blue right-0 w-auto">Details</legend>
+                            {{ order_form.first_name | as_crispy_field }}
+                            {{ order_form.last_name | as_crispy_field }}
+                            {{ order_form.email | as_crispy_field }}
+                            {{ order_form.phone_number | as_crispy_field }}
+                            {{ order_form.street_address1 | as_crispy_field }}
+                            {{ order_form.street_address2 | as_crispy_field }}
+                            {{ order_form.town_or_city | as_crispy_field }}
+                            {{ order_form.county | as_crispy_field }}
+                            {{ order_form.postcode | as_crispy_field }}
+                            {{ order_form.country | as_crispy_field }}
+                        </fieldset>
+    
+                        <div class="submit-button text-right mt-5 mb-2">
+                            <button id="submit-button" class="btn btn-green btn-transition">
+                                <span class="font-weight-bold">Update Information</span>
+                                <span class="icon">
+                                    <i class="fas fa-lock"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+{% endblock %}
