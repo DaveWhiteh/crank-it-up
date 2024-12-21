@@ -46,7 +46,7 @@
     <title>Crank-it Up {% block extra_title %}{% endblock %}</title>
 </head>
 
-<body>
+<body class="{% if '/login/' in request.path or '/register/' in request.path %}bg-grey{% else %}{% endif %}">
     <header class="fixed-top bg-white">
         <div class="container">
             <!-- Top Navbar -->
@@ -199,9 +199,9 @@
     {% endblock %}
 
     <!-- footer starts -->
-    <footer class="bg-color-black footer-logo-position 
+    <footer class="bg-white footer-logo-position 
                 {% if '/products/' in request.path or '/bag/' in request.path or '/checkout/' in request.path or '/checkout_success/' in request.path %}
-                footer-border{% else %}{% endif %}">
+                footer-border{% else %}{% endif %} mt-auto">
         <div class="container">
 
             <!-- Logo -->

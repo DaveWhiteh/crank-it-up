@@ -523,6 +523,28 @@ select option[value=""] {
     height: 100%;
 }
 
+/* --------------------------------------------------------------------------------------- Login / Register */
+
+.login-reg-form {
+    background-color: rgba(57, 131, 227, 0.4);
+    box-shadow: 3px 3px 6px 0 var(--dark-grey);
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+    border: none;
+}
+
+label[for="id_login"],
+label[for="id_password"],
+.asteriskField {
+    color: var(--dark-blue);
+    font-weight: 500
+    ;
+}
+
+label[for="id_remember"] {
+    color: var(--blue);
+}
+
 /* --------------------------------------------------------------------------------------- Footer */
 
 .footer-media a i:hover,
