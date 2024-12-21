@@ -460,7 +460,7 @@ thead th:first-child {
 .stripe-style-input {
   box-sizing: border-box;
   height: 36px;
-  padding: 10px 12px;
+  padding: 6px 12px;
   border: 0.75px solid var(--grey);
   border-radius: 0.25rem;
   background-color: white;
