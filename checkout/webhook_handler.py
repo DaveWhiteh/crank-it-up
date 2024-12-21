@@ -46,14 +46,14 @@ class StripeWH_Handler:
         for field, value in shipping_details.address.items():
             if value == "":
                 shipping_details.address[field] = None
-        
+
         order_exists = False
         attempt = 1
         while attempt <= 5:
             try:
                 order = Order.objects.get(
-                    first_name__iexact=shipping_details.first_name,
-                    last_name__iexact=shipping_details.last_name,
+                    first_name__iexact=shipping_details.name.split()[0],
+                    last_name__iexact=shipping_details.name.split()[1],
                     email__iexact=billing_details.email,
                     phone_number__iexact=shipping_details.phone,
                     country__iexact=shipping_details.address.country,
@@ -67,6 +67,7 @@ class StripeWH_Handler:
                     stripe_pid=pid,
                 )
                 order_exists = True
+                break
             except Order.DoesNotExist:
                 attempt += 1
                 time.sleep(1)
@@ -78,8 +79,8 @@ class StripeWH_Handler:
             order = None
             try:
                 order = Order.objects.create(
-                    first_name=shipping_details.first_name,
-                    last_name=shipping_details.last_name,
+                    first_name=shipping_details.name.split()[0],
+                    last_name=shipping_details.name.split()[1],
                     email=billing_details.email,
                     phone_number=shipping_details.phone,
                     country=shipping_details.address.country,
@@ -104,7 +105,7 @@ class StripeWH_Handler:
                     order.delete()
                 return HttpResponse(
                     content=f'Webhook received: {event["type"]} | ERROR: {e}',
-                    status=500)       
+                    status=500)
         return HttpResponse(
             content=f'Webhook received: {event["type"]} | SUCCESS: Created order in webhook',
             status=200)
