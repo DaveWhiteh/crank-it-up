@@ -70,6 +70,12 @@ body {
     border-radius: 0.25rem;
 }
 
+.no-hyphen {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+}
+
 /* --------------------------------------------------------------------------------------- Containers */
 
 .header-container {
@@ -164,11 +170,13 @@ body {
 .btn-green {
     background-color: var(--green);
     color: var(--white);
+    border: 1px solid var(--green);
 }
 
 .btn-green:hover {
     background-color: var(--dark-green);
     color: var(--white);
+    border: 1px solid var(--dark-green);
 }
 
 .btn-grey {
@@ -533,16 +541,8 @@ select option[value=""] {
     border: none;
 }
 
-label[for="id_login"],
-label[for="id_password"],
-.asteriskField {
-    color: var(--dark-blue);
-    font-weight: 500
-    ;
-}
-
-label[for="id_remember"] {
-    color: var(--blue);
+label {
+    display: none;
 }
 
 /* --------------------------------------------------------------------------------------- Footer */

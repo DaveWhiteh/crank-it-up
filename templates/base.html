@@ -46,7 +46,7 @@
     <title>Crank-it Up {% block extra_title %}{% endblock %}</title>
 </head>
 
-<body class="{% if '/login/' in request.path or '/register/' in request.path %}bg-grey{% else %}{% endif %}">
+<body class="{% if '/login/' in request.path or '/signup/' in request.path or '/logout/' in request.path or '/confirm-email/' in request.path %}bg-grey{% else %}{% endif %}">
     <header class="fixed-top bg-white">
         <div class="container">
             <!-- Top Navbar -->
@@ -95,7 +95,7 @@
                                     {% if request.user.is_superuser %}
                                         <a href="" class="dropdown-item">Product Management</a>
                                     {% endif %}
-                                    <a href="" class="dropdown-item">My Profile</a>
+                                    <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                                     <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                                 {% else %}
                                     <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
