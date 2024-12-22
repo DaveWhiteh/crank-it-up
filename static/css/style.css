@@ -437,7 +437,7 @@ thead th:first-child {
 .order-sum-bk {
     min-height: 350px;
     border: 0.5px solid var(--grey);
-    box-shadow: 0 1px 3px 0 #e6ebf1;
+    box-shadow: 3px 3px 6px 0 var(--dark-grey);
     -webkit-transition: box-shadow 150ms ease;
     transition: box-shadow 150ms ease;
 }
@@ -466,26 +466,26 @@ thead th:first-child {
 
 .StripeElement,
 .stripe-style-input {
-  box-sizing: border-box;
-  height: 36px;
-  padding: 6px 12px;
-  border: 0.75px solid var(--grey);
-  border-radius: 0.25rem;
-  background-color: white;
-  box-shadow: 0 1px 3px 0 #e6ebf1;
-  -webkit-transition: box-shadow 150ms ease;
-  transition: box-shadow 150ms ease;
+    box-sizing: border-box;
+    height: 36px;
+    padding: 6px 12px;
+    border: 0.75px solid var(--grey);
+    border-radius: 0.25rem;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
 }
 
 .StripeElement--focus,
 .stripe-style-input:focus,
 .stripe-style-input:active {
-  box-shadow: 0 1px 3px 0 #cfd7df;
-  border-color: var(--light-blue);
+    box-shadow: 0 1px 3px 0 #cfd7df;
+    border-color: var(--light-blue);
 }
 
 .StripeElement--webkit-autofill {
-  background-color: #fefde5 !important;
+    background-color: #fefde5 !important;
 }
 
 .stripe-style-input::placeholder {
@@ -543,6 +543,39 @@ select option[value=""] {
 
 label {
     display: none;
+}
+
+/* --------------------------------------------------------------------------------------- Profile */
+
+.profile-style-input {
+    box-sizing: border-box;
+    height: 36px;
+    padding: 6px 12px;
+    border: 0.75px solid var(--grey);
+    border-radius: 0.25rem;
+    background-color: white;
+    box-shadow: 3px 3px 6px 0 var(--dark-grey);
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.profile-style-input:focus,
+.profile-style-input:active {
+    box-shadow: 3px 3px 6px 0 var(--dark-grey);
+    border-color: var(--light-blue);
+}
+
+.profile-style-input::placeholder {
+    color: #aab7c4;
+}
+
+#id_default_country,
+#id_default_country option:not(:first-child) {
+    color: #000;
+}
+
+#id_default_country option:first-child {
+    color: #aab7c4;
 }
 
 /* --------------------------------------------------------------------------------------- Footer */
