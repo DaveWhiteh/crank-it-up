@@ -70,6 +70,10 @@ body {
     border-radius: 0.25rem;
 }
 
+.b-radius-top {
+    border-radius: 0.25rem 0.25rem 0 0;
+}
+
 .no-hyphen {
     -webkit-hyphens: none;
     -moz-hyphens: none;
@@ -443,6 +447,12 @@ thead th:first-child {
     transition: box-shadow 150ms ease;
 }
 
+.order-sum-success-bk {
+    box-shadow: 3px 3px 6px 0 var(--dark-grey);
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
 /* Checkout Animation */
 #loading-overlay {
 	display: none;
@@ -542,7 +552,13 @@ select option[value=""] {
     border: none;
 }
 
-label {
+label[for="id_login"],
+label[for="id_password"],
+label[for="id_email"],
+label[for="id_email2"],
+label[for="id_username"],
+label[for="id_password1"],
+label[for="id_password2"] {
     display: none;
 }
 

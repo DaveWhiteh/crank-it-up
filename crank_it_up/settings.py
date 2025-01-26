@@ -27,7 +27,8 @@ SECRET_KEY = 'django-insecure-=^fie*b&r_o2kw3&u0(tvt%v2*5x91##yab%q%x_w4odo6ax=i
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-davewhiteh-crankitup-f4v9ngbkz6u.ws-eu117.gitpod.io'
+    '8000-davewhiteh-crankitup-f4v9ngbkz6u.ws-eu117.gitpod.io',
+    '8000-davewhiteh-crankitup-iyr60c763z3.ws-eu117.gitpod.io'
 ]
 
 
