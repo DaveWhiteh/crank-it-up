@@ -21,14 +21,16 @@
             </div>
 
             <div class="row">
-                <form method="POST" action="{% url 'add_product' %}" class="form mb-2" enctype="multipart/form-data">
-                    {% csrf_token %}
-                    {{ form | crispy }}
-                    <div class="text-right">
-                        <a class="btn btn-grey btn-transition" href="{% url 'products' %}">Cancel</a>
-                        <button class="btn btn-green btn-transition" type="submit">Add Product</button>
-                    </div>
-                </form>
+                <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2">
+                    <form method="POST" action="{% url 'add_product' %}" class="form mb-2" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ form | crispy }}
+                        <div class="text-right">
+                            <a class="btn btn-grey btn-transition" href="{% url 'products' %}">Cancel</a>
+                            <button class="btn btn-green btn-transition" type="submit">Add Product</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
