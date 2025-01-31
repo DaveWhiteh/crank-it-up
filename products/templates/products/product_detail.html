@@ -45,7 +45,19 @@
                     <p class="text-black text-small">{{ product.description}}</p>
                     <p class="text-medium text-black text-smaller"><span class="text-uppercase">Size:</span> <span class="text-blue text-italic">{{ product.size }}</span></p>
                     <p class="text-medium text-black text-smaller"><span class="text-uppercase">Colour:</span> <span class="text-blue text-italic">{{ product.colour }}</span></p>
-                    <p class="text-semibold text-dark-blue text-larger mt-4 mb-4">£{{ product.price }}</p>
+                    <div class="row">
+                        <div class="col-12 col-md-6 mt-3 mb-2">
+                            <p class="text-semibold text-dark-blue text-larger">£{{ product.price }}</p>
+                        </div>
+                        <div class="col-12 col-md-6 mt-3 mb-2">
+                            {% if request.user.is_superuser %}
+                                <small>
+                                    <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                    <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                </small>
+                            {% endif %}
+                        </div>
+                    </div>
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">

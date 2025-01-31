@@ -90,7 +90,19 @@
                                         {% endif %}
                                     </div>
                                 </div>
-                                    <p class="card-text text-semibold text-blue">£{{ product.price }}</p>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <p class="card-text text-semibold text-blue">£{{ product.price }}</p>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        {% if request.user.is_superuser %}
+                                            <small>
+                                                <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                                <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                            </small>
+                                        {% endif %}
+                                    </div> 
+                                </div>
                             </div>
                         </div>
                     </div>
