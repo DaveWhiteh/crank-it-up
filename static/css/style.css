@@ -194,6 +194,16 @@ body {
     color: var(--dark-blue);
 }
 
+.btn-light-blue {
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+}
+
+.btn-light-blue:hover {
+    background-color: var(--blue);
+    color: var(--dark-blue);
+}
+
 .btn-backtoproducts {
     color: var(--dark-blue);
 }
@@ -621,6 +631,19 @@ label[for="id_password2"] {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+
+label[for="id_category"],
+label[for="id_brand_name"],
+label[for="id_model_name"],
+label[for="id_description"],
+label[for="id_size"],
+label[for="id_colour"],
+label[for="id_price"],
+label[for="id_image"],
+label[for="id_is_featured"],
+label[for="id_is_active"] {
+    font-weight: 500;
 }
 
 /* --------------------------------------------------------------------------------------- Footer */
