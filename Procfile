@@ -1,1 +1,1 @@
-web: gunicorn django-crank-it-up.wsgi:application
+web: gunicorn crank_it_up.wsgi:application
