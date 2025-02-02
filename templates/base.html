@@ -55,7 +55,7 @@
                 <!-- Logo -->
                 <div class="col-12 col-lg-4 my-auto">
                     <a href="{% url 'home' %}" class="navbar-brand">
-                        <img src="/media/ciu_logo_blue.png" alt="CIU-Test Logo" id="ciu-logo" class="img-logo">
+                        <img src="{{ MEDIA_URL }}ciu_logo_blue.png" alt="CIU-Test Logo" id="ciu-logo" class="img-logo">
                     </a>
                 </div>
 
@@ -207,7 +207,7 @@
             <div class="row d-flex justify-content-sm-center justify-content-md-between mb-5">      
                 <div class="col-12 col-lg-4 my-auto">
                     <a href="{% url 'home' %}" class="navbar-brand">
-                        <img src="/media/ciu_logo_blue.png" alt="CIU-Test Logo" id="ciu-logo" class="img-logo footer-logo 
+                        <img src="{{ MEDIA_URL }}ciu_logo_blue.png" alt="CIU-Test Logo" id="ciu-logo" class="img-logo footer-logo 
                         {% if '/add/' in request.path or '/edit/' in request.path %}footer-logo-products-none{% elif '/products/' in request.path or '/bag/' in request.path or '/checkout/' in request.path or '/checkout_success/' in request.path %}
                         footer-logo-products{% else %}{% endif %}">
                     </a>
