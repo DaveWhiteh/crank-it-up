@@ -3,22 +3,22 @@
 
         <!-- Home link -->
         <li class="nav-item">
-            <a class="nav-link text-medium text-white mr-3" href="{% url 'home' %}">
+            <a class="nav-link text-medium text-white mr-lg-3" href="{% url 'home' %}">
                 Home
             </a>
         </li>
 
         <!-- Products Dropdown -->
         <li class="nav-item dropdown">
-            <a class="nav-link text-medium text-white ml-3" href="#" id="products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link text-medium text-white ml-lg-3" href="#" id="products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Bikes
             </a>
-            <div class="dropdown-menu bg-blue border-0" aria-labelledby="products-link">
-                <a href="{% url 'products' %}" class="dropdown-item pl-2">All Bikes</a>
-                <a href="{% url 'products' %}?category=mountain" class="dropdown-item pl-2">Mountain</a>
-                <a href="{% url 'products' %}?category=gravel" class="dropdown-item pl-2">Gravel</a>
-                <a href="{% url 'products' %}?category=road" class="dropdown-item pl-2">Road</a>
-                <a href="{% url 'products' %}?category=hybrid" class="dropdown-item pl-2">Hybrid</a>
+            <div class="dropdown-menu dd-menu-lownav border-0 pt-0 pt-lg-2" aria-labelledby="products-link">
+                <a href="{% url 'products' %}" class="dropdown-item dd-item-lownav pl-2">All Bikes</a>
+                <a href="{% url 'products' %}?category=mountain" class="dropdown-item dd-item-lownav pl-2">Mountain</a>
+                <a href="{% url 'products' %}?category=gravel" class="dropdown-item dd-item-lownav pl-2">Gravel</a>
+                <a href="{% url 'products' %}?category=road" class="dropdown-item dd-item-lownav pl-2">Road</a>
+                <a href="{% url 'products' %}?category=hybrid" class="dropdown-item dd-item-lownav pl-2">Hybrid</a>
             </div>
         </li>
     </ul>
