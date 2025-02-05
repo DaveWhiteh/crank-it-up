@@ -690,27 +690,6 @@ label[for="id_is_active"] {
 
 /* --------------------------------------------------------------------------------------- Media Queries */
 
-/* @media screen and (max-width: 479px) {
-    .img-logo {
-        width: 110px;
-    }
-
-    .navbar-icons {
-        font-size: 95%;
-    }
-
-    .header-container {
-        padding-top: 161px;
-    }
-}
-
-/* Extra Small Screens */
-@media screen and (max-width: 575px) {
-    .header-container {
-        padding-top: 151px;
-    }
-}
-
 /* Small - Medium Screens */
 @media screen and (min-width: 576px) and (max-width: 991px) {
     .header-container {
