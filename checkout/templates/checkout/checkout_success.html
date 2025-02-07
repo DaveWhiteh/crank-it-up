@@ -20,7 +20,7 @@
                 </div>
             </div>
 
-            <div class="row pb-4">
+            <div class="pb-4">
                 <div class="col-12 col-lg-8 offset-lg-2 bg-white order-sum-success-bk b-radius">
                     <div class="row b-radius-top bg-blue">
                         <div class="col">
@@ -104,24 +104,22 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12 col-lg-8 offset-lg-2 px-0">
-                    {% if from_profile %}
-                        <a href="{% url 'profile' %}" class="btn btn-green btn-transition">
-                            <span class="icon">
-                                <i class="fas fa-chevron-left icon-dark-blue"></i>
-                            </span>
-                            <span class="text-uppercase">Back to Profile</span>
-                        </a>
-                    {% else %}
-                        <a href="{% url 'products' %}" class="btn btn-green btn-transition">
-                            <span class="icon">
-                                <i class="fas fa-chevron-left icon-dark-blue"></i>
-                            </span>
-                            <span class="text-uppercase">Back to Shop</span>
-                        </a>
-                    {% endif %}
-                </div>
+            <div class="col-12 col-lg-8 offset-lg-2 px-0">
+                {% if from_profile %}
+                    <a href="{% url 'profile' %}" class="btn btn-green btn-transition">
+                        <span class="icon">
+                            <i class="fas fa-chevron-left icon-dark-blue"></i>
+                        </span>
+                        <span class="text-uppercase">Back to Profile</span>
+                    </a>
+                {% else %}
+                    <a href="{% url 'products' %}" class="btn btn-green btn-transition">
+                        <span class="icon">
+                            <i class="fas fa-chevron-left icon-dark-blue"></i>
+                        </span>
+                        <span class="text-uppercase">Back to Shop</span>
+                    </a>
+                {% endif %}
             </div>
         </div>
     </div>
