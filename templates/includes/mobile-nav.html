@@ -18,11 +18,23 @@
     </div>
 
     <!-- Nav -->
-    <div class="col-10 col-sm-6 my-auto pr-0">
+    <div class="col-10 col-sm-6 my-auto px-0">
         <ul class="list-inline list-unstyled text-right my-0 pr-0">
 
+            <!-- Home -->
+            <li class="list-inline-item mr-0">
+                <a class="nav-link pr-0" href="{% url 'home' %}">
+                    <div class="text-center">
+                        <div><i class="fa-solid fa-house fa-lg icon-dark-blue"></i></div>
+                        <p class="navbar-icons text-dark-blue my-0">
+                            Home
+                        </p>
+                    </div>
+                </a>
+            </li>
+
             <!-- Account Dropdown -->
-            <li class="list-inline-item dropdown">
+            <li class="list-inline-item dropdown mr-0">
                 <a class="text-black nav-link pr-0" href="#" id="user-options" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
                     <div class="text-center">
