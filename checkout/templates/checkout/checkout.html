@@ -55,16 +55,11 @@
                         {% endfor %}
                         <hr class="my-3">
                     </div>
-                    <div class="row text-black text-right">
-                        <div class="col-7 offset-2">
-                            <p class="mb-1 text-medium text-dark-blue">Order Total:</p>
-                            <p class="text-medium text-dark-blue">Delivery:</p>
-                            <p class="mt-3 text-medium text-dark-blue">Grand Total:</p>
-                        </div>
-                        <div class="col-3">
-                            <p class="mb-1 text-medium text-black">£{{ total | floatformat:2 }}</p>
-                            <p class="text-medium text-black">£{{ delivery | floatformat:2 }}</p>
-                            <p class="mt-3 text-larger text-medium text-black"><strong>£{{ grand_total | floatformat:2 }}</strong></p>
+                    <div class="row text-right">
+                        <div class="col">
+                            <p class="mb-1 text-medium text-black"><span class="mb-1 text-medium text-dark-blue">Order Total:  </span>£{{ total | floatformat:2 }}</p>
+                            <p class="text-medium text-black"><span class="text-medium text-dark-blue">Delivery:  </span>£{{ delivery | floatformat:2 }}</p>
+                            <p class="mt-3 text-larger text-medium text-black"><span class="mt-3 text-medium text-dark-blue">Grand Total:  </span><strong>£{{ grand_total | floatformat:2 }}</strong></p>
                         </div>
                     </div>
                 </div>

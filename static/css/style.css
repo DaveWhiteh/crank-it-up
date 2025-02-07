@@ -472,13 +472,13 @@ thead th:first-child {
     max-height: 350px;
     overflow-y: auto;
     border: 0.5px solid var(--grey);
-    box-shadow: 3px 3px 6px 0 var(--dark-grey);
+    box-shadow: 1px 1px 5px 0 var(--dark-grey);
     -webkit-transition: box-shadow 150ms ease;
     transition: box-shadow 150ms ease;
 }
 
 .order-sum-success-bk {
-    box-shadow: 3px 3px 6px 0 var(--dark-grey);
+    box-shadow: 1px 1px 5px 0 var(--dark-grey);
     -webkit-transition: box-shadow 150ms ease;
     transition: box-shadow 150ms ease;
 }
