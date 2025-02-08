@@ -204,6 +204,13 @@
     {% block content %}
     {% endblock %}
 
+    <!-- Back to Top Button -->
+    <div id="btt-button" class="shadow-sm">
+        <a class="btt-link d-flex h-100 text-white text-decoration-none">
+            <i class="fa fa-arrow-up mx-auto my-auto"></i>
+        </a>
+    </div>
+
     <!-- footer starts -->
     <footer class="bg-white footer-logo-position {% if '/add/' in request.path or '/edit/' in request.path %}footer-border-none{% elif '/products/' in request.path or '/bag/' in request.path or '/checkout/' in request.path or '/checkout_success/' in request.path %}
                 footer-border{% else %}{% endif %} mt-auto">
@@ -257,6 +264,9 @@
     <!-- footer ends -->
 
     {% block postloadjs %}
+
+        <!-- Scroll Top JS -->
+        <script src="{% static 'js/scroll_top.js' %}"></script>
 
         <!-- Show Toasts -->
         <script type="text/javascript">

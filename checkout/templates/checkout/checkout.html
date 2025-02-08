@@ -58,8 +58,8 @@
                                     <p class="my-0 text-medium text-black text-smaller">£{{ item.product.price | calc_subtotal:item.quantity }}</p>
                                 </div>
                             </div>
+                            <hr class="my-3">
                         {% endfor %}
-                        <hr class="my-3">
                     </div>
 
                     <!-- Order Totals -->
@@ -122,10 +122,10 @@
                                 <span class="icon">
                                     <i class="fas fa-chevron-left icon-dark-blue"></i>
                                 </span>
-                                <span class="font-weight-bold">Adjust Bag</span>
+                                <span class="text-uppercase">Adjust Bag</span>
                             </a>
                             <button id="submit-button" class="btn btn-green btn-transition">
-                                <span class="font-weight-bold">Complete Order</span>
+                                <span>Complete Order</span>
                                 <span class="icon">
                                     <i class="fas fa-lock"></i>
                                 </span>
