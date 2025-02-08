@@ -12,6 +12,7 @@
 {% block content %}
     <div class="container-wrapper-5">
         <div class="container">
+            <!-- Profile Title -->
             <div class="row">
                 <div class="col">
                     <h2 class="text-center text-semibold text-dark-blue mb-5">My Profile</h2>
@@ -20,6 +21,7 @@
             </div>
 
             <div class="row">
+                <!-- Order History -->
                 <div class="col-12 col-lg-6 order-lg-last mb-5">
                     <p class="text-medium text-dark-blue">Order History</p>
                     <div class="col-12 order-sum-bk bg-white b-radius p-3 mb-3">
@@ -65,6 +67,8 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Default Details -->
                 <div class="col-12 col-lg-6">
                     <p class="text-dark-blue">Default Contact / Delivery Information</p>
                     <form action="{% url 'profile' %}" method="POST" id="profile-update-form">
@@ -80,5 +84,8 @@
 
 {% block postloadjs %}
     {{ block.super }}
+
+        <!-- Populate Countryfield Script -->
         <script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+
 {% endblock %}

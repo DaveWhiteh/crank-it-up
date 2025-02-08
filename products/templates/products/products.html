@@ -10,6 +10,7 @@
 {% endblock %}
 
 {% block content %}
+    <!-- Product Image / Title -->
     <div class="product-main-image mb-0">
         <div class="container container-wrapper">
             <div class="row">
@@ -28,6 +29,7 @@
         </div>
     </div>
 
+    <!-- Product Title -->
     <div class="container-fluid bg-dark-blue text-center px-4 py-3">
         <div class="container">
             <div class="row">
@@ -42,8 +44,10 @@
         </div>
     </div>
 
+    <!-- Products -->
     <div class="container-wrapper-6">
         <div class="container">
+            <!-- Product Sort -->
             <div class="row mb-4">
                 <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                     <div class="sort-select-wrapper">
@@ -71,6 +75,7 @@
                 {% for product in products %}
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="card product no-border h-100">
+                            <!-- Product Image -->
                             {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
                                     <img src="{{ product.image.url }}" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
@@ -80,6 +85,7 @@
                                     <img src="{{ MEDIA_URL }}noimage.jpg" class="card-img-top img-fluid product-image w-100" alt="{{ product.model_name }}">
                                 </a>
                             {% endif %}
+                            <!-- Product Details -->
                             <div class="card-body">
                                 <a href="{% url 'product_detail' product.id %}">
                                     <h5 class="card-title text-semibold text-dark-blue">{{ product.brand_name }}</h5>
@@ -103,6 +109,7 @@
                                     <div class="col-12 col-md-6">
                                         <p class="card-text text-semibold text-blue">£{{ product.price }}</p>
                                     </div>
+                                    <!-- Admin - Edit / Delete -->
                                     <div class="col-12 col-md-6">
                                         {% if request.user.is_superuser %}
                                             <small>
@@ -119,6 +126,7 @@
             </div>
         </div>
     </div>
+    
     <!-- Back to Top Button -->
     <div id="btt-button" class="shadow-sm">
         <a class="btt-link d-flex h-100 text-white text-decoration-none">
