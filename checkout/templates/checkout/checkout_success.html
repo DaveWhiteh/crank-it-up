@@ -10,8 +10,10 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container-wrapper-5">
+    <div class="container-wrapper-6">
         <div class="container">
+
+            <!-- Checkout Success Title -->
             <div class="row">
                 <div class="col">
                     <h2 class="text-semibold text-dark-blue text-center mb-4">Thank You</h2>
@@ -20,20 +22,24 @@
                 </div>
             </div>
 
+            <!-- Order Summary -->
             <div class="pb-4">
                 <div class="col-12 col-lg-8 offset-lg-2 bg-white order-sum-success-bk b-radius">
+                    <!-- Title -->
                     <div class="row b-radius-top bg-blue">
                         <div class="col">
                             <p class="text-white text-semibold mb-0 py-2">Order Summary</p>
                         </div>
                     </div>
 
+                    <!-- Order Info Subtitle -->
                     <div class="row">
                         <div class="col">
                             <p class="text-dark-blue text-semibold mb-0 py-2">Order Info:</p>
                         </div>
                     </div>
 
+                    <!-- Order Number -->
                     <div class="row">
                         <div class="col-12 col-md-4 mb-1">
                             <p class="mb-0 text-black text-medium">Order Number</p>
@@ -42,7 +48,8 @@
                             <p class="mb-0">{{ order.order_number }}</p>
                         </div>
                     </div>
-    
+
+                    <!-- Order Date -->
                     <div class="row">
                         <div class="col-12 col-md-4 mb-1">
                             <p class="mb-0 text-black text-medium">Order Date</p>
@@ -52,6 +59,7 @@
                         </div>
                     </div>
 
+                    <!-- Delivery Address -->
                     <div class="row">
                         <div class="col-12 col-md-4">
                             <p class="mb-0 text-black text-medium">Delivery To:</p>
@@ -71,12 +79,14 @@
 
                     <hr>
 
+                    <!-- Order Details Subtitle -->
                     <div class="row">
                         <div class="col">
                             <p class="text-dark-blue text-semibold mb-0 py-2">Order Details:</p>
                         </div>
                     </div>
 
+                    <!-- Details -->
                     {% for item in order.lineitems.all %}
                         <div class="row">
                             <div class="col-12 col-md-6">
@@ -93,9 +103,11 @@
                     <hr>
 
                     <div class="row mt-3">
+                        <!-- Billing Info Subtitle -->
                         <div class="col-12">
                             <p class="text-black text-medium mb-1">Billing Info:</p>
                         </div>
+                        <!-- Order Totals -->
                         <div class="col-12 text-dark-blue">
                             <p class="mb-1">Total: £{{ order.order_total }}</p>
                             <p>Delivery: £{{ order.delivery_cost }}</p>
@@ -104,6 +116,8 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Butons -->
             <div class="col-12 col-lg-8 offset-lg-2 px-0">
                 {% if from_profile %}
                     <a href="{% url 'profile' %}" class="btn btn-green btn-transition">
