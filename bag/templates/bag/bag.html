@@ -11,7 +11,7 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container-wrapper-5">
+    <div class="container-wrapper-6">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -48,8 +48,8 @@
                             </div>
                             <hr>
                             <div class="row mt-5 mb-3 mx-0">
-                                <div class="col b-radius bg-blue text-center pb-0 pt-3">
-                                    <p class="text-white text-large text-medium">Bag Content Summary</p>
+                                <div class="col b-radius bg-blue text-center py-1">
+                                    <p class="text-white text-large text-medium mb-0">Bag Content Summary</p>
                                 </div>
                             </div>
                             {% for item in bag_items %}
@@ -133,7 +133,7 @@
                         </div>
                     {% else %}
                         <p class="lead mb-5">Your basket is empty</p>
-                        <a href="{% url 'products' %}" class="btn btn-grey btn-transition btn-lg">
+                        <a href="{% url 'products' %}" class="btn btn-grey btn-transition">
                             <span class="icon">
                                 <i class="fas fa-chevron-left icon-dark-blue"></i>
                             </span>
