@@ -366,7 +366,7 @@ body {
 }
 
 .product {
-    box-shadow:  10px 5px 20px var(--grey);
+    box-shadow:  10px 8px 26px var(--grey);
 }
 
 .card-body {
