@@ -706,6 +706,25 @@ label[for="id_is_active"] {
 /* --------------------------------------------------------------------------------------- Media Queries */
 
 /* Small - Medium Screens */
+@media screen and (max-width: 767px) {
+    .jumbotron {
+        background: url('/media/home_jumbotron_mobile.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        height: 75vh;
+        position: relative;
+        padding-bottom: 3rem;
+    }
+}
+
+
+
+
+/* Small - Medium Screens */
 @media screen and (min-width: 576px) and (max-width: 991px) {
     .header-container {
         padding-top: 166px;
