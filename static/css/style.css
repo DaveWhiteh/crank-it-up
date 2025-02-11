@@ -178,13 +178,13 @@ body {
 
 .btn-green {
     background-color: var(--green);
-    color: var(--white);
+    color: var(--dark-blue);
     border: 1px solid var(--green);
 }
 
 .btn-green:hover {
     background-color: var(--dark-green);
-    color: var(--white);
+    color: var(--dark-blue);
     border: 1px solid var(--dark-green);
 }
 
