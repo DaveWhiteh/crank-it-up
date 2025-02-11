@@ -40,17 +40,17 @@
                             <div class="row">
                                 <!-- Image -->
                                 <div class="col-2 mb-1">
-                                    <a href="{% url 'product_detail' item.product.id %}">
+                                    <a href="{% url 'product_detail' item.product.id %}" aria-label="Image thumbnail for {{ item.product.brand_name }} {{ item.product.model_name }}">
                                         {% if item.product.image %}
-                                            <img class="w-100" src="{{ item.product.image.url }}" alt="{{ product.brand_name }} {{ product.model_name }}">
+                                            <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.brand_name }} {{ item.product.model_name }}">
                                         {% else %}
-                                            <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.brand_name }} {{ product.model_name }}">
+                                            <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.brand_name }} {{ item.product.model_name }}">
                                         {% endif %}
                                     </a>
                                 </div>
                                 <!-- Details -->
                                 <div class="col-7">
-                                    <p class="my-0"><strong>{{ item.product.name }}</strong></p>
+                                    <p class="my-0"><strong>{{ item.product.brand_name }} {{ item.product.model_name }}</strong></p>
                                     <p class="my-0 text-medium text-black text-smaller"><span class="text-uppercase">Size:</span> <span class="text-blue text-italic">{{ item.product.size }}</span></p>
                                     <p class="my-0 text-medium text-black text-smaller">Qty: {{ item.quantity }}</p>
                                 </div>
