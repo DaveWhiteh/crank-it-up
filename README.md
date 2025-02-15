@@ -31,7 +31,6 @@ The site will be targeted towards individuals who want a no nonsense, quick and 
 + Easily register for an account - I can have a personal account to see and edit my profile and see purchase history
 + Easily login or logout - I can see my personal details within my account
 + Easily recover my password - I can recover access to my account
-+ Delete my account - I can remove my profile from the website
 + Have a personalised user profile - I can view my order history, update billing info, save payment information
 + Receive an email confirmation after registering - I can see that my account was successfully setup
 
