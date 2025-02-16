@@ -1,16 +1,12 @@
 from django.test import TestCase
 from products.models import Product, Category
 
-from django.test import Client
-
 
 class TestBagViews(TestCase):
     """ Test bag views """
 
     def setUp(self):
         """ Create objects for testing """
-
-        self.client = Client()
 
         # Test Category
         self.testCategory = Category.objects.create(
