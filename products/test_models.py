@@ -3,7 +3,7 @@ from .models import Product, Category
 
 
 class TestProductModels(TestCase):
-    """ Test products views """
+    """ Test products models """
 
     def setUp(self):
         """ Create objects for testing """
