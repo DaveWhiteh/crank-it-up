@@ -3,7 +3,7 @@ from .models import Order
 from products.models import Product, Category
 
 
-class TestBagViews(TestCase):
+class TestCheckoutViews(TestCase):
     """ Test checkout views """
 
     def setUp(self):
@@ -27,7 +27,7 @@ class TestBagViews(TestCase):
             is_active=True
         )
         # Test Order
-        self.order = Order.objects.create(
+        self.testOrder = Order.objects.create(
             first_name="Test Firstname",
             last_name="Test Lastname",
             email="test@test.com",
