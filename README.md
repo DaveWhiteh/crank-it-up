@@ -1,6 +1,6 @@
 # Crank-it Up
 
-![Crank-it Up Responsive Mock-up]()
+![Crank-it Up Responsive Mock-up](media/readme/responsive_mockup.jpg)
 
 ---
 
@@ -10,7 +10,7 @@ Crank-it Up is a full-stack ecommerce website that allows users to purchase qual
 
 The site will be targeted towards individuals who want a no nonsense, quick and easy way to purchase used quality bikes.
 
-***Click **[here]()** to view the live website.***
+***Click **[here](https://django-crank-it-up-a382c0df504c.herokuapp.com/)** to view the live website.***
 
 ---
 
