@@ -220,3 +220,321 @@ Ref: "Order"."id" < "OrderLineItem"."order"
 
 ---
 
+## Features
+
+### **The Whole Site**
+
+<details>
+<summary>Screenshots</summary>
+
+**Searchbar**
+
+<img src="media/readme/features_site_searchbar.jpg" width="500">
+
+**Scroll to top**
+
+<img src="media/readme/features_site_scroll_top.jpg" width="200">
+
+**Toasts/Messages**
+
+<img src="media/readme/features_site_toasts.jpg" width="350">
+</details>
+
++ Is responsive throughout, with layouts changing in order for content on certain pages to flow better on smaller devices.
+
++ The colour scheme works really well utilising different tones of blue with both lime green and greys to break parts of the site up.
+
++ Navigation is very important throughout the site. The search bar is constant throughout, easily accessible in the navbar at any point. Users have the ability to click through the site smoothly always able to go back to pages should they need to at any given moment.
+
++ On each page once the user scrolls down the page they will be presented with a themed arrow that takes the user to the top of the page.
+
++ Throughout the site depending on certain actions that the user does, they will clearly be informed through the use of toast messages. These will popup just below the account icon and will be categorised into a success, info or error state message.
+
+### **Navigation Bar**
+
+<details>
+<summary>Screenshots</summary>
+
+**Desktop**
+
+<img src="media/readme/features_navbar_desktop.jpg" width="1000">
+
+**Tablet**
+
+<img src="media/readme/features_navbar_tablet.jpg" width="500">
+
+**Mobile**
+
+<img src="media/readme/features_navbar_mobile.jpg" width="350">
+</details>
+
++ Featuring the brand logo to the left which links directly to the home page. The logo is not displayed on smaller devices due to the space available.
+    
++ The links Account and Basket to the right hand side, with the Home link appearing on small devices only.
+
++ There is a lower navbar that contains two links, one for the home page and the other that is a dropdown with the bike categories.
+    
++ The searchbar central on desktop to allow users easy access to search for any product within the site. This continues to be a big feature on the navbar by being present on tablet and mobile devices.
+
++ The navbar is fixed in order for the user to always gain access to the menu at any point throughout the user navigating the site.
+From medium devices and below the navbar is responsive in layout and changes to suite, removing the lower navbar and moving these links to within a mobile navigation menu.
+
+### **Footer**
+
+<details>
+<summary>Screenshots</summary>
+
+**Desktop**
+
+<img src="media/readme/features_footer_desktop.jpg" width="1000">
+
+**Tablet**
+
+<img src="media/readme/features_footer_tablet.jpg" width="500">
+
+**Mobile**
+
+<img src="media/readme/features_footer_mobile.jpg" width="350">
+</details>
+
++ The footer is of simplistic in design featuring the brand logo to the left and a strapline immediately below.
+
++ In the centre of the footer there are the social media icons that link to facebook, X and instagram which once clicked will open in a new window.
+
++ To the right of the footer gives the user some contact info.
+
++ At the bottom strip to the left is the copyright text.
+
++ On mobile the footer layout changes, with the elements below the logo becoming centralised.
+
+### **Home Page**
+
+This whole page contains big images and captions that allows the user to immediately see what the site is about. The colours used are both the primary and secondary blues with the lime green sparsely used, complimenting the two throughout the page.
+
+#### Jumbotron
+
+<details>
+<summary>Screenshots</summary>
+
+**Jumbotron**
+
+<img src="media/readme/features_home_jumbotron.jpg" width="1000">
+</details>
+
++ The jumbotron is a full width image that captures the real essence of what the eCommerce site can offer the user and the adventure that awaits!
+
++ There is the company name big and bold and two straplines that are short and simple. These straplines are followed by a button that will take the user straight to the products page containing all the bikes.
+
+#### eCommerce Information
+
+<details>
+<summary>Screenshots</summary>
+
+**Information**
+
+<img src="media/readme/features_home_info.jpg" width="1000">
+</details>
+
++ There are three inline information sections that are made up of an icon, header and paragraph containing information that gives the user a little insight as to what the site offers.
+
+#### Categories
+
+<details>
+<summary>Screenshots</summary>
+
+**Categories**
+
+<img src="media/readme/features_home_categories.jpg" width="1000">
+</details>
+
++ This next section of the home page is the categories. There are four categories in total, mountain, gravel, road and hybrid bikes.
+
++ Each category has an image and the actual category header that shows the user the type of bikes they will see once they click on a specific category.
+
+#### Featured Bikes
+
+<details>
+<summary>Screenshots</summary>
+
+**Featured Bikes**
+
+<img src="media/readme/features_home_feat_bikes.jpg" width="1000">
+</details>
+
++ The featured bikes section on the home page, are bikes that have been specifically selected by the admin of the site.
+
++ These bike cards contain the base information of the bike that a user would need to see before clicking on one and taking them to the product detail page, which will contain a more detailed breakdown of that specific bike.
+
++ At the bottom of this section is a button that goes to the products page which will show the user all the bikes.
+
+#### Advertising Section
+
+<details>
+<summary>Screenshots</summary>
+
+**Advertising**
+
+<img src="media/readme/features_home_advertising_1.jpg" width="1000">
+
+<img src="media/readme/features_home_advertising_2.jpg" width="1000">
+</details>
+
++ This advertising section is split up into three sections. The first is made up of two half width parts, one containing an image of a mountain bike with the other half width to the right containing a caption and a button that takes the user directly to the products page.
+
++ The next section has a full width blue strapline that breaks up the first and last sections.
+
++ The last section is another image that is the full width of the page that again gives the user another look into what the site offers.
+
+#### **Products Page**
+
+<details>
+<summary>Screenshots</summary>
+
+**Products**
+
+<img src="media/readme/features_products_1.jpg" width="1000">
+
+<img src="media/readme/features_products_2.jpg" width="1000">
+</details>
+
++ This page is made up of an image with a category title. It features all the bikes or can be filtered depending on the category to show just bikes from that particular category.
+
++ At the top of the product section of the page there is a sort by dropdown menu, which allows the user to sort products by category, price or brand name.
+
++ Each product card just like the featured products on the home page, gives the user a brief amount of info about the product and allows the user to click on the bike that will take them directly to the product detail page.
+
+#### **Product Detail Page**
+
+<details>
+<summary>Screenshots</summary>
+
+**Product Detail**
+
+<img src="media/readme/features_product_detail.jpg" width="1000">
+</details>
+
++ The product details page drills down into the product, giving the user more descriptive detail about the bike that was clicked on.
+
++ At the top right of this page there is a back to products link, that will allow a user to click and send them back to the products page showing them all the products.
+
++ The details page is split into two even widths, with the left side containing the image of the bike. The right hand side, showcases the model name, brand name, category, full description, colour, size and the price. This is followed by the add to basket button.
+
+#### **Basket Page**
+
+<details>
+<summary>Screenshots</summary>
+
+**Basket**
+
+<img src="media/readme/features_basket.jpg" width="1000">
+</details>
+
++ The basket showcases a summary of what the user decides to add to their basket. Each bike that is added will be in a table style layout that provides a thumbnail of the image, model name, brand name, size and colour. Then the price, quantity and subtotal of that order line. Just below the price will feature a link for removing the product from the basket.
+
++ Below the table has the total price of all the bike(s), followed by the delivery cost and then the grand total of the total bike plus the delivery. After the prices are two buttons, one for going to the checkout and the other for navigational purposes to take the user back to the products page that lists all the products.
+
+#### **Checkout Page**
+
+<details>
+<summary>Screenshots</summary>
+
+**Checkout**
+
+<img src="media/readme/features_checkout_1.jpg" width="1000">
+
+<img src="media/readme/features_checkout_2.jpg" width="1000">
+
+<img src="media/readme/features_checkout_order_confirmation.jpg" width="500">
+
+<img src="media/readme/features_checkout_order_email_confirmation.jpg" width="500">
+</details>
+
++ This page is split on desktop with the form to the left and product summary on the right. On smaller devices the product summary comes first with the checkout form below summary.
+
++ The form consists of three parts, contact details, delivery details and payment details. Just below the delivery detail fields has a changeable paragraph that changes depending on whether the user is logged in or not. After the payment details are two buttons, allowing the user to adjust the basket or complete the order.
+
++ The order summary contains a thumbnail of the item, basic details and the subtotal. Each item is shown one after the other with the totals shown after the summary.
+
+#### **Login Page**
+
+<details>
+<summary>Screenshots</summary>
+
+**Login**
+
+<img src="media/readme/features_login.jpg" width="1000">
+</details>
+
++ The login page features the text that clearly allows the user to identify that this is the actual login page.
+
++ The page has a form that allows the user to login. The form consists of a user inputting there username and password. This is followed by a button that allows the user to login.
+
++ Below the form is text that links the user to the registration form, should they have accidentally navigated to the wrong page.
+
++ There is a link to reset their password should they have forgotten it. An email will be sent to the user which will contain a link to reset their password.
+
+#### **Registration Page**
+
+<details>
+<summary>Screenshots</summary>
+
+**Registration**
+
+<img src="media/readme/features_register.jpg" width="1000">
+
+<img src="media/readme/features_register_verify_email.jpg" width="500">
+</details>
+
++ The registration page contains a form that contains all the relevant details a user must input in order to register for an account.
+
++ The user must input an email address twice to make sure they have correctly entered the email address, a username and the password twice, this is again to make sure that they are inputting the correct password.
+
+#### **Profile Page**
+
+<details>
+<summary>Screenshots</summary>
+
+**Profile**
+
+<img src="media/readme/features_profile.jpg" width="1000">
+</details>
+
++ When a user sign's in after creating an account they will have their very own profile page. This page contains their information. The information can be inputted and saved so that for any future orders they won't need to input all the basic details again.
+
++ This page also shows the user all their order(s) should they have placed any. Each order is in a list, where they can click on the order number that will take them to the order details page.
+
+#### **Add/Edit Product**
+
+<details>
+<summary>Screenshots</summary>
+
+**Add**
+
+<img src="media/readme/features_admin_add_product.jpg" width="1000">
+
+**Edit**
+
+<img src="media/readme/features_admin_edit_product.jpg" width="1000">
+</details>
+
++ When adding a product the admin of the site will navigate to the product management page under account dropdown.
+
++ To edit a product the admin will click on edit under the specific product they would like to edit.
+
++ Both forms are the same with edit having all the fields pre-populated with the product information.
+
+#### **Delete Product**
+
++ Deleting product follows the same route as editing. When an admin user is logged in they will have the delete link on each product. User can click on delete and they will be asked to confirm whether they would like to delete or not.
+
+#### **Logout**
+
+<details>
+<summary>Screenshots</summary>
+
+**Logout**
+
+<img src="media/readme/features_logout.jpg" width="1000">
+</details>
+
++ When the user wants to log out, they will need to navigate to the account dropdown in the header and click logout. This will then give them the option to confirm if they would like to logout or not.
