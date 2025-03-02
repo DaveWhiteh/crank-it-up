@@ -560,3 +560,89 @@ This whole page contains big images and captions that allows the user to immedia
 + Add a review section so that users can add their own reviews regarding both the product and the site.
 
 ---
+
+## Technologies Used
+
+### **Languages**
+
++ [HTML5](https://en.wikipedia.org/wiki/HTML5)
++ [CSS3](https://en.wikipedia.org/wiki/CSS)
++ [Javascript](https://en.wikipedia.org/wiki/JavaScript)
++ [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
+
+### **Frameworks & Libraries**
+
++ [Django](https://www.djangoproject.com/)
+    + used this python web framework to create the website.
++ [Heroku](https://heroku.com/)
+    + used to deploy the full project.
++ [jinja](https://jinja.palletsprojects.com/en/3.0.x/)
+    + used to add logic to the html templates alongside python.
++ [jQuery](https://jquery.com/)
+    + used to add functionality throughout the website.
++ [Bootstrap5](https://getbootstrap.com/)
+    + used to create the structure and layout of the website, making it responsive on all devices.
++ [Google Fonts](https://fonts.google.com/)
+    + used to get the links to the fonts that are put in the css as an import. These fonts are then used throughout the web application.
++ [Font Awesome](https://fontawesome.com/)
+    + this was used to add icons to the project.
++ [Git](https://git-scm.com/)
+    + was used for version control in order to add, commit and push from GitPod to GitHub.
++ [GitHub](https://github.com/)
+    + is used as a repository and to host the full project.
++ [GitPod](https://www.gitpod.io/)
+    + is the IDE that is used to develop the web application.
+
+### **Storage**
+
++ [Amazon Web Services](https://aws.amazon.com/)
+    + is used to host static files and media.
++ [PostgreSQL](https://www.postgresql.org/)
+    + from code institute is used to host the database.
+
+### **Payments**
+
++ [Stripe](https://stripe.com/)
+    + is used to handle the payment on the website.
+
+### **Programs**
+
++ [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)
+    + is used to alter and resize all the images that are used within the project.
+
+### **Websites**
+
++ [Vecteezy](https://www.vecteezy.com/)
+    + this site was used to source the images used within the web application.
++ [Pexels](https://www.pexels.com/)
+    + this site was used to source the images used within the web application.
++ [Pixabay](https://pixabay.com/)
+    + this site was used to source the images used within the web application.
++ [Unsplash](https://unsplash.com/)
+    + this site was used to source the images used within the web application.
++ [Tredz](https://www.tredz.co.uk/)
+    + this site was used to source all the product images used within the web application.
++ [Convertio](https://convertio.co/)
+    + this site was used to convert some images from jpg to webp.
++ [Figma](https://www.figma.com/)
+    + used to create the wireframes and design layout for the project.
++ [DB Diagram](https://dbdiagram.io/)
+    + used to create the database models for the project.
++ [Favicon](https://favicon.io/)
+    + used to create the favicon for the web application.
++ [Techsini](https://techsini.com/multi-mockup/)
+    + used to create the responsive mock-up image that is at the beginning of the readme file.
++ [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    + this was used throughout the whole project, from creating the site, testing the responsiveness of the site and then testing the performance.
++ [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+    + this site is used to validate the css which was used to style the web application.
++ [W3C HTML Validation Service](https://validator.w3.org/)
+    + used to validate the html for the project.
++ [jsHint](https://jshint.com/)
+    + used to validate the javascript for the project.
++ [Pep8ci](https://pep8ci.herokuapp.com/)
+    + used to check the syntax of the python code throughout the project.
++ [Wave Web Accessibility Tool](https://wave.webaim.org/)
+    + used to validate the accessibility throughout the site.
++ [Stack Overflow](https://stackoverflow.com/)
+    + was used for seeking out answers and general learning purposes.
