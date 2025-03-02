@@ -646,3 +646,11 @@ This whole page contains big images and captions that allows the user to immedia
     + used to validate the accessibility throughout the site.
 + [Stack Overflow](https://stackoverflow.com/)
     + was used for seeking out answers and general learning purposes.
+
+---
+
+## Testing
+
+Please click [here]() to see all the testing that was carried out for the eCommerce site.
+
+---
