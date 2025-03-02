@@ -538,3 +538,25 @@ This whole page contains big images and captions that allows the user to immedia
 </details>
 
 + When the user wants to log out, they will need to navigate to the account dropdown in the header and click logout. This will then give them the option to confirm if they would like to logout or not.
+
+---
+
+## Future Features
+
++ To include filtering within the products page.
+
++ To enhance the storefront further by allowing users to sell bikes on the site. Upon account creation they will have the option to have a basic account that will allow them to see just the profile page or for an enhanced account for selling bikes.
+
++ Enhanced accounts will give users the option to set the bike they are selling at a certain price or enable an option that will let them receive offers, emailing the user direct with an amount.
+
++ Enhance the delivery options by connecting to a courier API.
+
++ Enhance the look of the site by having a second logo removing the crank part from the logo and just having the crank arm with 'Crank-It-Up' and then having this centralised on smaller devices.
+
++ Have an FAQ page and Support page that users will be able to access by clicking on links in the footer of the site.
+
++ To add a contact page, so that users can easily contact the admin of the site.
+
++ Add a review section so that users can add their own reviews regarding both the product and the site.
+
+---
