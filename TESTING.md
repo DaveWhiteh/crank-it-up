@@ -10,7 +10,7 @@
     + [CSS](#css)
     + [Javascript](#javascript)
     + [Python](#python)
-3. [Colour Contrast Validation](#colour-contrast-validation)
+3. [Accessibility Validation](#accessibility-validation)
 4. [Performance](#performance)
 5. [Responsiveness](#responsiveness)
 6. [Browser Compatibility](#browser-compatibility)
@@ -350,3 +350,24 @@ I tested all python code via the site [CI Python Linter](https://pep8ci.herokuap
 These warnings did not require changing as they have no affect on the functioning of the code.
 
 ---
+
+## Accessibility Validation
+
+The Site was tested using the [Weve Accessibility Validator](https://wave.webaim.org/).
+
+**Home** - two errors were found for no aria-label on the input element. These have been fixed in the base html. There were some contrast errors, however after careful consideration it was unnecessary to change these at this time.
+
+**Products** - two errors were found for no aria-label on the input element. These have been fixed in the base html. There were quite a few contrast issue, mainly on the product price. Instead of changing the colour it was decided that making the font size bigger would make the text more accessible without comprimising on the colour scheme for the site.
+
+<details>
+<summary>Home</summary>
+<img src="media/readme/testing/testing_contrast_home.jpg" width="750">
+</details>
+
+<details>
+<summary>Products</summary>
+<img src="media/readme/testing/testing_contrast_products.jpg" width="750">
+</details>
+
+---
+
