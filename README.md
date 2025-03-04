@@ -10,6 +10,8 @@ Crank-it Up is a full-stack ecommerce website that allows users to purchase qual
 
 The site will be targeted towards individuals who want a no nonsense, quick and easy way to purchase used quality bikes.
 
+For testing purposes please make sure when entering payment details at the checkout page that you enter the Card Number: 4242 4242 4242 4242 as this is the Stripe testing card number.
+
 ***Click **[here](https://django-crank-it-up-a382c0df504c.herokuapp.com/)** to view the live website.***
 
 ---
@@ -651,6 +653,6 @@ This whole page contains big images and captions that allows the user to immedia
 
 ## Testing
 
-Please click [here]() to see all the testing that was carried out for the eCommerce site.
+Please click [here](https://github.com/DaveWhiteh/crank-it-up/blob/main/TESTING.md) to see all the testing that was carried out for the eCommerce site.
 
 ---
