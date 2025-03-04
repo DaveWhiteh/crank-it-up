@@ -9,6 +9,7 @@
     + [HTML](#html)
     + [CSS](#css)
     + [Javascript](#javascript)
+    + [Python](#python)
 3. [Colour Contrast Validation](#colour-contrast-validation)
 4. [Performance](#performance)
 5. [Responsiveness](#responsiveness)
@@ -137,7 +138,7 @@
 <img src="media/readme/testing/user_stories_register_confirm_email_confirmation.jpg" width="750">
 </details>
 
-+ Once a user registers for an account they will be prompted with instructions that an email has been sent to the specified email address upon registration. Within the actual email, will be a link that once clicked will take the user to the email confirmation page, confirming that registration has been setup succesffully.
++ Once a user registers for an account they will be prompted with instructions that an email has been sent to the specified email address upon registration. Within the actual email, will be a link that once clicked will take the user to the email confirmation page, confirming that registration has been setup successfully.
 
 ### **Sorting and Searching**
 
@@ -204,7 +205,7 @@
 <img src="media/readme/testing/user_stories_secure_checkout.jpg" width="500">
 </details>
 
-+ The user will confidentily be able to provide all payment information allowing them checkout feeling that there payment will go through securely.
++ The user will confidently be able to provide all payment information allowing them to checkout feeling that their payment will go through securely.
 
 **View an order confirmation after checkout - I can make sure my order has gone through successfully and I haven't made any mistakes**
 
@@ -223,3 +224,129 @@
 </details>
 
 + Once a user has placed an order they will be sent an order confirmation email, providing the user with a breakdown of what the user has ordered and the costs associated with the order.
+
+---
+
+## Code Validation
+
+### HTML
+
+The HTML was tested using the validation site [W3C HTML Validation Service](https://validator.w3.org/).
+
+**Errors** - No errors were found. There was one warning
+
+**Warnings** - One warning found in the basket validation. The 'type attribute is unnecessary in javascript element'. I have fixed this warning.
+
+**Info** - There was one info message found in three html files, products add, products edit and profile. The info message displayed in regard to a trailing slash on void elements. This slash is on an input element which is not currently controlled through the html as it is formed through the crispy forms package in python. No action is required.
+
+<details>
+<summary>Home</summary>
+<img src="media/readme/testing/testing_html_validation_home.jpg" width="750">
+</details>
+
+<details>
+<summary>Register</summary>
+<img src="media/readme/testing/testing_html_validation_register.jpg" width="750">
+</details>
+
+<details>
+<summary>Login</summary>
+<img src="media/readme/testing/testing_html_validation_login.jpg" width="750">
+</details>
+
+<details>
+<summary>Profile</summary>
+<img src="media/readme/testing/testing_html_validation_profile.jpg" width="750">
+</details>
+
+<details>
+<summary>Profile Order History</summary>
+<img src="media/readme/testing/testing_html_validation_profile_order_history.jpg" width="750">
+</details>
+
+<details>
+<summary>Products</summary>
+<img src="media/readme/testing/testing_html_validation_products.jpg" width="750">
+</details>
+
+<details>
+<summary>Product - Add</summary>
+<img src="media/readme/testing/testing_html_validation_products_add.jpg" width="750">
+</details>
+
+<details>
+<summary>Product - Edit</summary>
+<img src="media/readme/testing/testing_html_validation_products_edit.jpg" width="750">
+</details>
+
+<details>
+<summary>Product Details</summary>
+<img src="media/readme/testing/testing_html_validation_product_detail.jpg" width="750">
+</details>
+
+<details>
+<summary>Basket</summary>
+<img src="media/readme/testing/testing_html_validation_basket.jpg" width="750">
+</details>
+
+<details>
+<summary>Checkout</summary>
+<img src="media/readme/testing/testing_html_validation_checkout.jpg" width="750">
+</details>
+
+<details>
+<summary>Checkout Success</summary>
+<img src="media/readme/testing/testing_html_validation_checkout_success.jpg" width="750">
+</details>
+
+### CSS
+
+The CSS was tested using the validation site [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found.
+
+<details>
+<summary>Custom CSS</summary>
+<img src="media/readme/testing/testing_css_validation.jpg" width="750">
+</details>
+
+### Javascript
+
+The Javascript was tested using the validation site [JSHint](https://jshint.com/). No errors were found. There were a couple of warnings:
++ unnessary semicolon
++ let is available in ES6
++ template literal syntax.
+These warnings were not fixed as they are not important.
+
+<details>
+<summary>Countryfield</summary>
+<img src="media/readme/testing/testing_js_countryfield.jpg" width="750">
+</details>
+
+<details>
+<summary>Products Page Sort Box</summary>
+<img src="media/readme/testing/testing_js_products_page_sort_box.jpg" width="750">
+</details>
+
+<details>
+<summary>Remove Item Reload</summary>
+<img src="media/readme/testing/testing_js_remove_item_reload.jpg" width="750">
+</details>
+
+<details>
+<summary>Scroll to the top of the page</summary>
+<img src="media/readme/testing/testing_js_scroll_to_top.jpg" width="750">
+</details>
+
+<details>
+<summary>Stripe Element</summary>
+<img src="media/readme/testing/testing_js_stripe_element.jpg" width="750">
+</details>
+
+### Python
+
+I tested all python code via the site [CI Python Linter](https://pep8ci.herokuapp.com/#). There were a few things that popped up throughout the process:
++ W292 no newline at end of file
++ E501 line too long
++ W293 blank line contains whitespace
+These warnings did not require changing as they have no affect on the functioning of the code.
+
+---
