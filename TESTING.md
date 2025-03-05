@@ -317,7 +317,7 @@ The Javascript was tested using the validation site [JSHint](https://jshint.com/
 + let is available in ES6
 + template literal syntax.
 
-These warnings were not fixed as they are not important.
+These warnings were not fixed as they were deemed not important at this time and did not affect functionality. These will be taken into account when creating new projects in the future.
 
 <details>
 <summary>Countryfield</summary>
@@ -382,7 +382,7 @@ I have managed to complete 63 automated tests using the Django unittest framewor
 
 All 63 tests performed were passed. These tests consist of testing views, models and forms. They can be found in the apps under there own separate test files named test_views, test_models and test_forms.
 
-As mentioned this being the first time performing these types of tests my aim was to hit a coverage of 75%. I was successfully in completing 80% coverage.
+As mentioned this being the first time performing these types of tests my aim was to hit a coverage of 75%. I was successful in completing 80% coverage.
 
 <details>
 <summary>Tests Ran</summary>
@@ -418,7 +418,7 @@ As mentioned this being the first time performing these types of tests my aim wa
 
 ## Performance
 
-The Site was tested for Performance, Accessibility, Best Practices and SEO, using the Lighthouse Report in the Google Developer Tools.
+The site was tested for Performance, Accessibility, Best Practices and SEO, using the Lighthouse Report in the Google Developer Tools.
 
 <details>
 <summary>Home</summary>
@@ -470,7 +470,7 @@ The Site was tested for Performance, Accessibility, Best Practices and SEO, usin
 
 In desktop mode the reports clearly shows that the results are of a high percentage and no action was taken to boost any of the four categories.
 
-For mobile the performance dipped quite a bit. Having reviewed this and looked at the performance on a mobile device, the score was found not to be of any concern, as the perfomrnace was high on all live mobile devices manually tested on.
+For mobile the performance dipped quite a bit. Having reviewed this and looked at the performance on a mobile device, the score was found not to be of any concern for this project, as the performance was high on all live mobile devices manually tested on. One of issues that has been noted and is the biggest contributor to why the performance dipped was the 'Largest Contentful Paint element'. This was due to the jumbotron size on different devices. I have taken this onboard for future projects and would create different sized images that would change depending on the breakpoints set.
 
 ---
 

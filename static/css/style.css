@@ -727,9 +727,6 @@ label[for="id_is_active"] {
     }
 }
 
-
-
-
 /* Small - Medium Screens */
 @media screen and (min-width: 576px) and (max-width: 991px) {
     .header-container {
@@ -759,6 +756,14 @@ label[for="id_is_active"] {
     .message-container {
         right: 14px;
     }
+}
+
+/* Small Devices - Landscape */
+@media screen and (min-width: 576px) and (max-width: 991px) and (orientation: landscape) {
+    .jumbotron {
+        height: 85vh;
+    }
+
 }
 
 /* Larger / Tablet Screens */
