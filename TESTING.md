@@ -523,3 +523,17 @@ On these two browsers the site performed well, no issues were noticed.
 
 ---
 
+## Bugs and Fixes
+
+### Mobile - Landscape Mode
+
+This was an issue when testing the responsiveness of the site on mobile device.
+
+***Issue/Feature*** - The Jumbotron title and text was getting cut off.
+
+***Resolution*** - Added media query to the css so that for mobile devices in landscape mode, the title and text is moved down.
+
+<details>
+<summary>Code After</summary>
+<img src="media/readme/testing/testing_fixes_landscape.jpg" width="350">
+</details>
