@@ -470,3 +470,41 @@ For mobile the performance dipped quite a bit. Having reviewed this and looked a
 
 ---
 
+## Responsiveness
+
+### Live
+
+The website was tested on the following live devices:
++ **iiyama desktop monitor - 1920x1080 resolution**
+    + the site performed well on a desktop, running smoothly throughout.
++ **Google Pixel 7**
+    + the site was tested thoroughly on this mobile device. The site is smooth and responsive throughout.
++ **Google Pixel 8a**
+    + the site was tested by an external user. The response was positive, good feedback. Was picked up why there was no contact us page, this is however covered in the future features section in the main README file.
++ **Amazon Fire Tablet HD**
+    + the site was tested on this tablet and worked very well. Responsive, looked good in both orientations and was smooth thoughout navigation.
++ **iPhone 11**
+    + the site was tested by an external user. Feedback was positive no issues to report.
+
+### Simulation
+
+The site was also tested using Chrome Developer Tools on the following setups:
++ iPhone SE
++ iPhone XR
++ iPhone 12 Pro
++ Pixel 5
++ Samsung Galaxy S8+
++ Samsung Galazy S20 Ultra
++ Galaxy Fold
++ Samsung Galaxy A51/71
++ iPad Air
++ iPad Mini
++ Surface Pro 7
++ Surface Duo
++ Nest Hub
++ Nest Hub Max
+
+The site performed as expected and was responsive, with all functionality and navigation working well.
+
+---
+
