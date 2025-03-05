@@ -11,10 +11,11 @@
     + [Javascript](#javascript)
     + [Python](#python)
 3. [Accessibility Validation](#accessibility-validation)
-4. [Performance](#performance)
-5. [Responsiveness](#responsiveness)
-6. [Browser Compatibility](#browser-compatibility)
-7. [Bugs and Fixes](#bugs-and-fixes)
+4. [Automated Testing](#automated-testing)
+5. [Performance](#performance)
+6. [Responsiveness](#responsiveness)
+7. [Browser Compatibility](#browser-compatibility)
+8. [Bugs and Fixes](#bugs-and-fixes)
 
 ---
 
@@ -367,6 +368,46 @@ The Site was tested using the [Weve Accessibility Validator](https://wave.webaim
 <details>
 <summary>Products</summary>
 <img src="media/readme/testing/testing_contrast_products.jpg" width="750">
+</details>
+
+---
+
+## Automated Testing
+
+I have managed to complete 63 automated tests using the Django unittest framework. This being the first time in a project that these tests have been performed, it was quite challenging at times. I can see the benefit of using these automated tests and will continue to develop the necessary skills to maintain a high level of standards when testing thoroughly.
+
+All 63 tests performed were passed. These tests consist of testing views, models and forms. They can be found in the apps under there own separate test files named test_views, test_models and test_forms.
+
+As mentioned this being the first time performing these types of tests my aim was to hit a coverage of 75%. I was successfully in completing 80% coverage.
+
+<details>
+<summary>Tests Ran</summary>
+<img src="media/readme/testing/testing_automated_tests_ran.jpg" width="500">
+</details>
+
+<details>
+<summary>Home Coverage</summary>
+<img src="media/readme/testing/testing_unit_home.jpg" width="500">
+</details>
+
+<details>
+<summary>Products Coverage</summary>
+<img src="media/readme/testing/testing_unit_products.jpg" width="500">
+</details>
+
+<details>
+<summary>Checkout Coverage</summary>
+<img src="media/readme/testing/testing_unit_checkout.jpg" width="500">
+</details>
+
+<details>
+<summary>Profile Coverage</summary>
+<img src="media/readme/testing/testing_unit_profiles.jpg" width="500">
+</details>
+
+<details>
+<summary>Total Coverage Report</summary>
+<img src="media/readme/testing/testing_automated_report_total_percentage.jpg" width="500">
 </details>
 
 ---
