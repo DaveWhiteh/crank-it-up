@@ -508,3 +508,14 @@ The site performed as expected and was responsive, with all functionality and na
 
 ---
 
+## Browser Compatibility
+
+The web application was tested on the following browsers:
+
+Google Chrome
+Mozilla Firefox
+
+On these two browsers the site performed well, no issues were noticed.
+
+---
+
