@@ -412,3 +412,61 @@ As mentioned this being the first time performing these types of tests my aim wa
 
 ---
 
+## Performance
+
+The Site was tested for Performance, Accessibility, Best Practices and SEO, using the Lighthouse Report in the Google Developer Tools.
+
+<details>
+<summary>Home</summary>
+
+**Desktop**
+
+<img src="media/readme/testing/testing_performance_home_desktop.jpg" width="750">
+
+**Mobile**
+
+<img src="media/readme/testing/testing_performance_home_mobile.jpg" width="750">
+</details>
+
+<details>
+<summary>Product Detail</summary>
+
+**Desktop**
+
+<img src="media/readme/testing/testing_performance_productdetail_desktop.jpg" width="750">
+
+**Mobile**
+
+<img src="media/readme/testing/testing_performance_productdetail_mobile.jpg" width="750">
+</details>
+
+<details>
+<summary>Basket</summary>
+
+**Desktop**
+
+<img src="media/readme/testing/testing_performance_basket_desktop.jpg" width="750">
+
+**Mobile**
+
+<img src="media/readme/testing/testing_performance_basket_mobile.jpg" width="750">
+</details>
+
+<details>
+<summary>Checkout</summary>
+
+**Desktop**
+
+<img src="media/readme/testing/testing_performance_checkout_desktop.jpg" width="750">
+
+**Mobile**
+
+<img src="media/readme/testing/testing_performance_checkout_mobile.jpg" width="750">
+</details>
+
+In desktop mode the reports clearly shows that the results are of a high percentage and no action was taken to boost any of the four categories.
+
+For mobile the performance dipped quite a bit. Having reviewed this and looked at the performance on a mobile device, the score was found not to be of any concern, as the perfomrnace was high on all live mobile devices manually tested on.
+
+---
+
