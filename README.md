@@ -731,3 +731,7 @@ All Product Images - https://www.tredz.co.uk/
 
 ---
 
+## Acknowledgements
+
++ Bristol City College and Ben Smith for there understanding and patience throughout the project.
++ The Code Institute community on Slack
