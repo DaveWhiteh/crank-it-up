@@ -700,3 +700,34 @@ pip3 freeze --local > requirements.txt
 + When the deployment has been successful, click on "Open App" in the top-right hand corner of the dashboard to launch the app.
 
 ---
+
+## Credits
+
+### **Media**
+
+**Logo**
+
+Logo - Vector by graphic nehar on Vecteezy - https://www.vecteezy.com/vector-art/17517013-crankset-vector-icon
+
+**Home**
+
+Jumbotron Image - Image by Tim Foster on Unsplash - https://unsplash.com/photos/person-riding-hardtail-bike-beside-trees-at-daytime-jhovC0t8f-8
+
+Orange Bike Image - Image by Hendrik van Heerden on Unsplash - https://unsplash.com/photos/an-orange-bike-leaning-against-a-tree-in-the-woods-nAbbxW26_mQ
+
+Downhill Bike Image - Image by Irene Lasus on Pexels - https://www.pexels.com/photo/man-in-black-and-orange-bicycle-riding-jacket-with-green-off-road-bike-90454/
+
+Gravel Category - Image by JLFineArt on Pixabay - https://pixabay.com/photos/cycling-bicycle-mountainbike-nature-7564103/
+
+Mountain Category - Image by si_kor on Pixabay - https://pixabay.com/photos/man-adventure-bicycle-ride-woods-7072455/
+
+Road Category - Image by Richard Bell on Unsplash - https://unsplash.com/photos/a-couple-of-people-riding-bikes-down-a-dirt-road-13OfYKcFHDo
+
+Hybrid Category - Image by Team EVELO on Pexels - https://www.pexels.com/photo/a-man-riding-a-mountain-bike-through-the-woods-15020571/
+
+**Products**
+
+All Product Images - https://www.tredz.co.uk/
+
+---
+
