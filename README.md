@@ -387,7 +387,7 @@ This whole page contains big images and captions that allows the user to immedia
 
 + The last section is another image that is the full width of the page that again gives the user another look into what the site offers.
 
-#### **Products Page**
+### **Products Page**
 
 <details>
 <summary>Screenshots</summary>
@@ -405,7 +405,7 @@ This whole page contains big images and captions that allows the user to immedia
 
 + Each product card just like the featured products on the home page, gives the user a brief amount of info about the product and allows the user to click on the bike that will take them directly to the product detail page.
 
-#### **Product Detail Page**
+### **Product Detail Page**
 
 <details>
 <summary>Screenshots</summary>
@@ -421,7 +421,7 @@ This whole page contains big images and captions that allows the user to immedia
 
 + The details page is split into two even widths, with the left side containing the image of the bike. The right hand side, showcases the model name, brand name, category, full description, colour, size and the price. This is followed by the add to basket button.
 
-#### **Basket Page**
+### **Basket Page**
 
 <details>
 <summary>Screenshots</summary>
@@ -435,7 +435,7 @@ This whole page contains big images and captions that allows the user to immedia
 
 + Below the table has the total price of all the bike(s), followed by the delivery cost and then the grand total of the total bike plus the delivery. After the prices are two buttons, one for going to the checkout and the other for navigational purposes to take the user back to the products page that lists all the products.
 
-#### **Checkout Page**
+### **Checkout Page**
 
 <details>
 <summary>Screenshots</summary>
@@ -457,7 +457,7 @@ This whole page contains big images and captions that allows the user to immedia
 
 + The order summary contains a thumbnail of the item, basic details and the subtotal. Each item is shown one after the other with the totals shown after the summary.
 
-#### **Login Page**
+### **Login Page**
 
 <details>
 <summary>Screenshots</summary>
@@ -475,7 +475,7 @@ This whole page contains big images and captions that allows the user to immedia
 
 + There is a link to reset their password should they have forgotten it. An email will be sent to the user which will contain a link to reset their password.
 
-#### **Registration Page**
+### **Registration Page**
 
 <details>
 <summary>Screenshots</summary>
@@ -491,7 +491,7 @@ This whole page contains big images and captions that allows the user to immedia
 
 + The user must input an email address twice to make sure they have correctly entered the email address, a username and the password twice, this is again to make sure that they are inputting the correct password.
 
-#### **Profile Page**
+### **Profile Page**
 
 <details>
 <summary>Screenshots</summary>
@@ -505,7 +505,7 @@ This whole page contains big images and captions that allows the user to immedia
 
 + This page also shows the user all their order(s) should they have placed any. Each order is in a list, where they can click on the order number that will take them to the order details page.
 
-#### **Add/Edit Product**
+### **Add/Edit Product**
 
 <details>
 <summary>Screenshots</summary>
@@ -525,11 +525,11 @@ This whole page contains big images and captions that allows the user to immedia
 
 + Both forms are the same with edit having all the fields pre-populated with the product information.
 
-#### **Delete Product**
+### **Delete Product**
 
 + Deleting product follows the same route as editing. When an admin user is logged in they will have the delete link on each product. User can click on delete and they will be asked to confirm whether they would like to delete or not.
 
-#### **Logout**
+### **Logout**
 
 <details>
 <summary>Screenshots</summary>

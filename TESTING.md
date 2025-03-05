@@ -234,11 +234,11 @@
 
 The HTML was tested using the validation site [W3C HTML Validation Service](https://validator.w3.org/).
 
-**Errors** - No errors were found. There was one warning
+**Errors** - No errors were found.
 
 **Warnings** - One warning found in the basket validation. The 'type attribute is unnecessary in javascript element'. I have fixed this warning.
 
-**Info** - There was one info message found in three html files, products add, products edit and profile. The info message displayed in regard to a trailing slash on void elements. This slash is on an input element which is not currently controlled through the html as it is formed through the crispy forms package in python. No action is required.
+**Info** - There was one info message found in three html files, products add, products edit and profile. The info message displayed in regard to a trailing slash on void elements. This slash is on an input element which is not currently controlled through the html as it is formed through the crispy forms package in python. No action was required.
 
 <details>
 <summary>Home</summary>
@@ -312,9 +312,11 @@ The CSS was tested using the validation site [W3C CSS Validation Service](https:
 ### Javascript
 
 The Javascript was tested using the validation site [JSHint](https://jshint.com/). No errors were found. There were a couple of warnings:
+
 + unnessary semicolon
 + let is available in ES6
 + template literal syntax.
+
 These warnings were not fixed as they are not important.
 
 <details>
@@ -345,9 +347,11 @@ These warnings were not fixed as they are not important.
 ### Python
 
 I tested all python code via the site [CI Python Linter](https://pep8ci.herokuapp.com/#). There were a few things that popped up throughout the process:
+
 + W292 no newline at end of file
 + E501 line too long
 + W293 blank line contains whitespace
+
 These warnings did not require changing as they have no affect on the functioning of the code.
 
 ---
@@ -358,12 +362,12 @@ The Site was tested using the [Weve Accessibility Validator](https://wave.webaim
 
 **Home** - two errors were found for no aria-label on the input element. These have been fixed in the base html. There were some contrast errors, however after careful consideration it was unnecessary to change these at this time.
 
-**Products** - two errors were found for no aria-label on the input element. These have been fixed in the base html. There were quite a few contrast issue, mainly on the product price. Instead of changing the colour it was decided that making the font size bigger would make the text more accessible without comprimising on the colour scheme for the site.
-
 <details>
 <summary>Home</summary>
 <img src="media/readme/testing/testing_contrast_home.jpg" width="750">
 </details>
+
+**Products** - two errors were found for no aria-label on the input element. These have been fixed in the base html. There were quite a few contrast issue, mainly on the product price. Instead of changing the colour it was decided that making the font size bigger would make the text more accessible without comprimising on the colour scheme for the site.
 
 <details>
 <summary>Products</summary>
@@ -512,8 +516,8 @@ The site performed as expected and was responsive, with all functionality and na
 
 The web application was tested on the following browsers:
 
-Google Chrome
-Mozilla Firefox
++ Google Chrome
++ Mozilla Firefox
 
 On these two browsers the site performed well, no issues were noticed.
 
