@@ -537,3 +537,11 @@ This was an issue when testing the responsiveness of the site on mobile device.
 <summary>Code After</summary>
 <img src="media/readme/testing/testing_fixes_landscape.jpg" width="350">
 </details>
+
+### Site not working after deployment
+
+This issue came about after trying to deploy to heroku.
+
+***Issue/Feature*** - Issue with site not working once deployed to Heroku. The error could not find 'cgi'.
+
+***Resolution*** - Was a problem with the python version. After searching through both stackoverflow and slack it lead me to add runtime.txt with an older python version.
